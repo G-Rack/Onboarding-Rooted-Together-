@@ -1,3 +1,5 @@
+import { CHECKOUT_URL } from '@/lib/config'
+
 export default function Hero() {
   return (
     <>
@@ -10,12 +12,12 @@ export default function Hero() {
       <h1 style={{ margin: '0', fontFamily: "'Playfair Display',Georgia,serif", fontWeight: '700', fontSize: 'clamp(42px,6.2vw,80px)', lineHeight: '1.02', letterSpacing: '-0.02em', color: '#2E1B10', textWrap: 'balance' }}>Open your storefront. Earn from what you already teach.</h1>
       <p style={{ margin: '0', fontSize: '20px', lineHeight: '1.55', color: '#6F5846', maxWidth: '560px' }}>Rooted Together is a marketplace for faith leaders. Set up your own storefront, publish courses, ebooks and daily routines, take paid 1:1 calls and prayer requests, and get paid straight to your bank.</p>
       <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '16px' }}>
-      <a className="btn-p" href="#apply" style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', minHeight: '56px', padding: '0 34px', borderRadius: '999px', background: '#6B4226', color: '#FBF6EF', fontSize: '17px', fontWeight: '600' }}>Create your storefront</a>
+      <a className="btn-p" href={CHECKOUT_URL} style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', minHeight: '56px', padding: '0 34px', borderRadius: '999px', background: '#6B4226', color: '#FBF6EF', fontSize: '17px', fontWeight: '600' }}>Create your storefront</a>
       <a className="btn-o" href="#value" style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', minHeight: '56px', padding: '0 30px', borderRadius: '999px', border: '1.5px solid #6B4226', color: '#6B4226', fontSize: '17px', fontWeight: '600' }}>See what you get</a>
       </div>
       <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '12px', fontSize: '15px', color: '#6F5846' }}>
       <span style={{ fontWeight: '600', color: '#6B4226' }}>One-time $49 membership.</span>
-      <span>Every application is read personally. Payouts through Stripe.</span>
+      <span>Pay once, then create your account. Payouts through Stripe.</span>
       </div>
       </div>
       

@@ -1,3 +1,5 @@
+import { CHECKOUT_URL } from '@/lib/config'
+
 export default function Pricing() {
   return (
     <>
@@ -20,8 +22,8 @@ export default function Pricing() {
       <div style={{ display: 'flex', flexDirection: 'column', gap: '13px', fontSize: '16px', lineHeight: '1.5', color: '#FBF6EF' }}>
       <div style={{ display: 'flex', gap: '12px' }}><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C8923F" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" style={{ flex: 'none', marginTop: '2px' }}><path d="M5 12l4 4 10-10"></path></svg>Your own storefront on web and app</div><div style={{ display: 'flex', gap: '12px' }}><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C8923F" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" style={{ flex: 'none', marginTop: '2px' }}><path d="M5 12l4 4 10-10"></path></svg>Courses, ebooks, routines, 1:1 calls and prayer requests</div><div style={{ display: 'flex', gap: '12px' }}><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C8923F" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" style={{ flex: 'none', marginTop: '2px' }}><path d="M5 12l4 4 10-10"></path></svg>Spiritual Family tools to gather and shepherd your people</div><div style={{ display: 'flex', gap: '12px' }}><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C8923F" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" style={{ flex: 'none', marginTop: '2px' }}><path d="M5 12l4 4 10-10"></path></svg>Access to the leaders' community</div><div style={{ display: 'flex', gap: '12px' }}><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C8923F" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" style={{ flex: 'none', marginTop: '2px' }}><path d="M5 12l4 4 10-10"></path></svg>Secure payouts through Stripe, 90% of every sale yours</div><div style={{ display: 'flex', gap: '12px' }}><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C8923F" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" style={{ flex: 'none', marginTop: '2px' }}><path d="M5 12l4 4 10-10"></path></svg>No monthly fees, ever</div>
       </div>
-      <a className="btn-g" href="#apply" style={{ marginTop: '6px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', minHeight: '58px', padding: '0 34px', borderRadius: '999px', background: '#C8923F', color: '#2E1B10', fontSize: '17px', fontWeight: '700' }}>Apply to join for $49</a>
-      <div style={{ fontSize: '13.5px', lineHeight: '1.55', color: '#E8CDA8', textAlign: 'center' }}>Every application is reviewed personally. You pay once you are approved.</div>
+      <a className="btn-g" href={CHECKOUT_URL} style={{ marginTop: '6px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', minHeight: '58px', padding: '0 34px', borderRadius: '999px', background: '#C8923F', color: '#2E1B10', fontSize: '17px', fontWeight: '700' }}>Join for $49</a>
+      <div style={{ fontSize: '13.5px', lineHeight: '1.55', color: '#E8CDA8', textAlign: 'center' }}>Pay once by card through Stripe, then create your account straight away.</div>
       </div>
       </div>
       </div>

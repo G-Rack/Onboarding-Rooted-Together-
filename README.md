@@ -1,6 +1,6 @@
 # Rooted Together: creator onboarding site
 
-The public landing page that explains Rooted Together to spiritual mothers, pastors and leaders, shows the one-time $49 membership, and collects applications.
+The public landing page for spiritual mothers, pastors and leaders. A creator pays a one-time $49 through Stripe, then creates their account on the main site and sets up their storefront.
 
 Next.js 16 (app router), React 19, no CSS framework. Fonts are bundled with `@fontsource`, so nothing loads from Google at runtime.
 
@@ -12,30 +12,24 @@ npm run dev        # http://localhost:3000
 npm run build      # production build check
 ```
 
-Copy `.env.example` to `.env.local` and fill it in (a ready `.env.local` is already here, and it is git-ignored).
+## The payment link
+
+Every "Join for $49" / "Create your storefront" button goes to `NEXT_PUBLIC_CHECKOUT_URL`. Until it is set, the buttons just scroll to the pricing card.
+
+1. In Stripe, open Payment Links and create one: product "Rooted Together Creator Membership", $49, one-time. Use test mode first.
+2. Under After payment, choose "Don't show confirmation page" and redirect to `https://rootedtogether.club/login?tab=signup`.
+3. Copy the link into `.env.local` as `NEXT_PUBLIC_CHECKOUT_URL=...` and into Vercel (Settings, Environment Variables), then redeploy. The value is baked in at build time, so a redeploy is required after changing it.
+
+Note: the link alone does not stop someone creating a creator account without paying. Gating that needs a Stripe webhook on the main site (record paid emails, then allow creator sign-up only for them).
 
 ## Where things live
 
-- `components/`: one file per page section (Nav, Hero, Problem, Value, SpiritualFamily, Earn, LeadersNetwork, HowItWorks, Pricing, Apply, Footer, StickyCta). Edit the copy right in these files.
+- `components/`: one file per page section (Nav, Hero, Problem, Value, SpiritualFamily, Earn, LeadersNetwork, HowItWorks, Pricing, Join, Footer, StickyCta). Edit the copy right in these files.
 - `app/page.js`: the order of the sections.
 - `app/layout.js`: page title, description and share preview text.
 - `app/globals.css`: hover colours, nav behaviour and the phone-only sticky button.
-- `lib/config.js`: site name, site URL and the footer line. Change these when the new domain is chosen.
-- `app/api/apply/route.js`: receives the application form and saves it to the `creator_applications` table in Supabase.
-
-## Applications
-
-Submissions land in the Supabase table `creator_applications` (project `ethrhogtyebqndeyytqd`). The public key can only add rows, never read them. Review them in the Supabase dashboard (Table Editor) and change `status` to `approved`, `declined` or `paid` as you go.
+- `lib/config.js`: site name and URL, footer line, checkout link and login link.
 
 ## Deploy on Vercel
 
-1. Push this folder to its own GitHub repo.
-2. In Vercel choose Add New, Project, import the repo (framework: Next.js, no settings to change).
-3. Add the three environment variables from `.env.example`. Set `NEXT_PUBLIC_SITE_URL` to the final domain.
-4. Deploy, then in Project Settings, Domains, add the new domain and follow the DNS records Vercel shows.
-
-## Still to do
-
-- The buttons in the "How it works" steps all jump to the application form. Point them at the real sign-up and Stripe steps when the payment flow exists.
-- Collecting the $49: a Stripe Payment Link or Checkout session sent to approved applicants is the simplest first version.
-- Add a favicon and share image for the new brand if it differs from the main site (`app/icon.png` is copied from the marketplace).
+Push this folder to GitHub, import it in Vercel (framework Next.js, root directory `./`), add the two variables from `.env.example`, deploy, then add the domain under Settings, Domains.

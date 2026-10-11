@@ -8,7 +8,7 @@ import Earn from '@/components/Earn'
 import LeadersNetwork from '@/components/LeadersNetwork'
 import HowItWorks from '@/components/HowItWorks'
 import Pricing from '@/components/Pricing'
-import Apply from '@/components/Apply'
+import Join from '@/components/Join'
 import Footer from '@/components/Footer'
 import StickyCta from '@/components/StickyCta'
 
@@ -25,7 +25,7 @@ export default function Home() {
       <LeadersNetwork />
       <HowItWorks />
       <Pricing />
-      <Apply />
+      <Join />
       <Footer />
       <StickyCta />
     </main>
