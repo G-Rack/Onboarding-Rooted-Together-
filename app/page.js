@@ -11,6 +11,7 @@ import Pricing from '@/components/Pricing'
 import Join from '@/components/Join'
 import Footer from '@/components/Footer'
 import StickyCta from '@/components/StickyCta'
+import RefCarrier from '@/components/RefCarrier'
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <Join />
       <Footer />
       <StickyCta />
+      <RefCarrier />
     </main>
   )
 }
