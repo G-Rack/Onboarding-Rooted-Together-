@@ -1,22 +1,37 @@
+
 export default function Problem() {
   return (
     <>
-      <div style={{ maxWidth: '1240px', margin: '0 auto', padding: '104px 24px 24px' }}>
-      <div style={{ maxWidth: '820px', display: 'flex', flexDirection: 'column', gap: '20px' }}>
-      <div style={{ fontSize: '12.5px', fontWeight: '600', letterSpacing: '0.14em', textTransform: 'uppercase', color: '#6B4226' }}>Sound familiar?</div>
-      <h2 style={{ margin: '0', fontFamily: "'Playfair Display',Georgia,serif", fontWeight: '700', fontSize: 'clamp(32px,4.4vw,54px)', lineHeight: '1.08', letterSpacing: '-0.015em', textWrap: 'balance' }}>Your ministry runs on scattered tools. It deserves one home.</h2>
+<section className="sec">
+  <div className="wrap">
+    <div className="sec-head">
+      <div className="eyebrow">Sound familiar?</div>
+      <h2 className="h2">Your ministry runs on scattered tools. It deserves one home.</h2>
+    </div>
+    <div className="problem-grid">
+      <div className="pcard a">
+        <span className="tag">Today</span>
+        <div style={{ marginTop: '10px' }}>
+          <div className="row"><svg className="ico"><use href="#i-x"/></svg><div>Your people are split across group chats, livestreams and a link in your bio.</div></div>
+          <div className="row"><svg className="ico"><use href="#i-x"/></svg><div>Years of teaching live in sermons and DMs, free by default.</div></div>
+          <div className="row"><svg className="ico"><use href="#i-x"/></svg><div>Calls and prayer requests are arranged by message, and rarely paid for.</div></div>
+          <div className="row"><svg className="ico"><use href="#i-x"/></svg><div>Getting paid means chasing transfers, cash and gifts.</div></div>
+          <div className="row"><svg className="ico"><use href="#i-x"/></svg><div>The calling can feel lonely.</div></div>
+        </div>
       </div>
-      <div style={{ marginTop: '48px', display: 'flex', flexWrap: 'wrap', gap: '20px', alignItems: 'stretch' }}>
-      <div style={{ flex: '1 1 440px', minWidth: '0', borderRadius: '28px', background: '#F1E4D3', padding: '36px 40px', display: 'flex', flexDirection: 'column' }}>
-      <div style={{ alignSelf: 'flex-start', padding: '6px 14px', borderRadius: '999px', background: '#FBF6EF', color: '#6F5846', fontSize: '12px', fontWeight: '700', letterSpacing: '0.08em', textTransform: 'uppercase' }}>Today</div>
-      <div style={{ marginTop: '12px' }}><div style={{ display: 'flex', gap: '14px', padding: '18px 0', fontSize: '17px', lineHeight: '1.55', color: '#6F5846' }}><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#9A7E66" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" style={{ flex: 'none', marginTop: '3px' }}><path d="M6 6l12 12M18 6L6 18"></path></svg><div style={{ minWidth: '0' }}>Your people are split across group chats, livestreams and a link in your bio.</div></div><div style={{ display: 'flex', gap: '14px', padding: '18px 0', borderTop: '1px solid #DCC8AE', fontSize: '17px', lineHeight: '1.55', color: '#6F5846' }}><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#9A7E66" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" style={{ flex: 'none', marginTop: '3px' }}><path d="M6 6l12 12M18 6L6 18"></path></svg><div style={{ minWidth: '0' }}>Years of teaching live in sermons and DMs, free by default.</div></div><div style={{ display: 'flex', gap: '14px', padding: '18px 0', borderTop: '1px solid #DCC8AE', fontSize: '17px', lineHeight: '1.55', color: '#6F5846' }}><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#9A7E66" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" style={{ flex: 'none', marginTop: '3px' }}><path d="M6 6l12 12M18 6L6 18"></path></svg><div style={{ minWidth: '0' }}>Calls and prayer requests are arranged by message, and rarely paid for.</div></div><div style={{ display: 'flex', gap: '14px', padding: '18px 0', borderTop: '1px solid #DCC8AE', fontSize: '17px', lineHeight: '1.55', color: '#6F5846' }}><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#9A7E66" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" style={{ flex: 'none', marginTop: '3px' }}><path d="M6 6l12 12M18 6L6 18"></path></svg><div style={{ minWidth: '0' }}>Getting paid means chasing transfers, cash and gifts.</div></div><div style={{ display: 'flex', gap: '14px', padding: '18px 0', borderTop: '1px solid #DCC8AE', fontSize: '17px', lineHeight: '1.55', color: '#6F5846' }}><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#9A7E66" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" style={{ flex: 'none', marginTop: '3px' }}><path d="M6 6l12 12M18 6L6 18"></path></svg><div style={{ minWidth: '0' }}>The calling can feel lonely.</div></div></div>
+      <div className="pcard b">
+        <span className="tag">With Rooted Together</span>
+        <div style={{ marginTop: '10px' }}>
+          <div className="row"><svg className="ico"><use href="#i-check"/></svg><div>One storefront and one Spiritual Family, all in one place.</div></div>
+          <div className="row"><svg className="ico"><use href="#i-check"/></svg><div>Courses, ebooks and routines you price and publish yourself.</div></div>
+          <div className="row"><svg className="ico"><use href="#i-check"/></svg><div>1:1 calls and prayer requests booked and paid in one step.</div></div>
+          <div className="row"><svg className="ico"><use href="#i-check"/></svg><div>Secure payouts through Stripe, with 90% of every sale yours.</div></div>
+          <div className="row"><svg className="ico"><use href="#i-check"/></svg><div>A community of spiritual mothers, pastors and leaders who understand.</div></div>
+        </div>
       </div>
-      <div style={{ flex: '1 1 440px', minWidth: '0', borderRadius: '28px', background: '#6B4226', padding: '36px 40px', display: 'flex', flexDirection: 'column' }}>
-      <div style={{ alignSelf: 'flex-start', padding: '6px 14px', borderRadius: '999px', background: '#C8923F', color: '#2E1B10', fontSize: '12px', fontWeight: '700', letterSpacing: '0.08em', textTransform: 'uppercase' }}>With Rooted Together</div>
-      <div style={{ marginTop: '12px' }}><div style={{ display: 'flex', gap: '14px', padding: '18px 0', fontSize: '17px', lineHeight: '1.55', color: '#FBF6EF' }}><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C8923F" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" style={{ flex: 'none', marginTop: '3px' }}><path d="M5 12l4 4 10-10"></path></svg><div style={{ minWidth: '0' }}>One storefront and one Spiritual Family, all in one place.</div></div><div style={{ display: 'flex', gap: '14px', padding: '18px 0', borderTop: '1px solid rgba(251,246,239,0.22)', fontSize: '17px', lineHeight: '1.55', color: '#FBF6EF' }}><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C8923F" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" style={{ flex: 'none', marginTop: '3px' }}><path d="M5 12l4 4 10-10"></path></svg><div style={{ minWidth: '0' }}>Courses, ebooks and routines you price and publish yourself.</div></div><div style={{ display: 'flex', gap: '14px', padding: '18px 0', borderTop: '1px solid rgba(251,246,239,0.22)', fontSize: '17px', lineHeight: '1.55', color: '#FBF6EF' }}><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C8923F" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" style={{ flex: 'none', marginTop: '3px' }}><path d="M5 12l4 4 10-10"></path></svg><div style={{ minWidth: '0' }}>1:1 calls and prayer requests booked and paid in one step.</div></div><div style={{ display: 'flex', gap: '14px', padding: '18px 0', borderTop: '1px solid rgba(251,246,239,0.22)', fontSize: '17px', lineHeight: '1.55', color: '#FBF6EF' }}><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C8923F" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" style={{ flex: 'none', marginTop: '3px' }}><path d="M5 12l4 4 10-10"></path></svg><div style={{ minWidth: '0' }}>Secure payouts through Stripe, with 90% of every sale yours.</div></div><div style={{ display: 'flex', gap: '14px', padding: '18px 0', borderTop: '1px solid rgba(251,246,239,0.22)', fontSize: '17px', lineHeight: '1.55', color: '#FBF6EF' }}><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C8923F" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" style={{ flex: 'none', marginTop: '3px' }}><path d="M5 12l4 4 10-10"></path></svg><div style={{ minWidth: '0' }}>A community of spiritual mothers, pastors and leaders who understand.</div></div></div>
-      </div>
-      </div>
-      </div>
+    </div>
+  </div>
+</section>
     </>
   )
 }
