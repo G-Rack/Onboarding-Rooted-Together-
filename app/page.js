@@ -3,7 +3,6 @@ import AudienceBar from '@/components/AudienceBar'
 import Nav from '@/components/Nav'
 import Hero from '@/components/Hero'
 import OfferingsStrip from '@/components/OfferingsStrip'
-import Problem from '@/components/Problem'
 import Value from '@/components/Value'
 import Churches from '@/components/Churches'
 import AppSection from '@/components/AppSection'
@@ -23,7 +22,6 @@ export default function Home() {
       <Nav />
       <Hero />
       <OfferingsStrip />
-      <Problem />
       <Value />
       <Churches />
       <AppSection />
