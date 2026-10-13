@@ -351,3 +351,114 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
   .card h3{font-size:18.5px;line-height:1.25;align-self:center;min-height:44px;display:flex;align-items:center}
   .card p{grid-column:2;font-size:14.5px;line-height:1.5;margin:0}
 }
+
+/* ===== phone: global tightening (type scale, gaps, cards) - desktop untouched ===== */
+@media (max-width:700px){
+  .wrap{padding:0 20px}
+  .eyebrow{font-size:11.5px}
+  .h2{font-size:29px;line-height:1.12}
+  .lead{font-size:15.5px;line-height:1.55}
+  .sec{padding:48px 0}
+  .sec-head{gap:12px}
+  .btn{min-height:50px;font-size:15.5px;padding:0 26px}
+
+  /* hero */
+  .audience{font-size:12.5px}
+  .nav .wrap{height:62px}
+  .hero .wrap{gap:32px;padding-top:28px;padding-bottom:32px}
+  .hero-copy{gap:16px}
+  .pill{font-size:12px;padding:6px 13px}
+  .hero h1{font-size:36px;line-height:1.05}
+  .hero .lead{font-size:16.5px;line-height:1.5}
+  .cta-row{gap:10px}
+  .fine{font-size:13.5px}
+
+  /* churches */
+  .church{padding:0 14px 48px}
+  .church-panel{padding:32px 20px;border-radius:24px;gap:28px}
+  .church-copy{gap:16px}
+  .church-copy .lead{font-size:15px}
+  .church-copy .h2{font-size:28px}
+  .use{gap:12px;padding:13px 0}
+  .use .ui{width:38px;height:38px;border-radius:12px;font-size:20px}
+  .use h3{font-size:17px;margin-bottom:2px}
+  .use p{font-size:14px;line-height:1.5}
+  .who{gap:6px}
+  .who span{padding:5px 11px;font-size:12.5px}
+  .church-copy .btn{min-height:50px;padding:12px 20px}
+  .church-art{gap:10px}
+  .cs{border-radius:22px}
+  .cs-cover{height:80px}
+  .cs-body{padding:0 16px 16px;gap:7px}
+  .cs-av{width:56px;height:56px;margin-top:-28px}
+  .cs-name{font-size:19px}
+  .cs-b{padding:8px;font-size:13px}
+  .cs-off{padding:9px 10px;gap:10px}
+
+  /* app section */
+  .app-top{gap:24px}
+  .included{padding:20px 20px;border-radius:22px;min-width:0;flex-basis:auto;width:100%}
+  .included .k b{font-size:38px}
+  .tabs5{margin:32px 0 12px;gap:8px}
+  .tab5{padding:12px 8px;border-radius:16px;gap:6px}
+  .tab5 .ti{width:38px;height:38px;border-radius:12px;font-size:21px}
+  .tab5 b{font-size:16px}
+  .tab5 span{font-size:12px}
+  .block{margin-top:44px;gap:24px}
+  .block-copy{gap:14px}
+  .block h3{font-size:25px;line-height:1.15}
+  .chip{font-size:12px;padding:5px 11px 5px 9px}
+  .feat{gap:11px}
+  .feat li{font-size:14.5px;line-height:1.5;gap:11px}
+  .feat li svg{width:19px;height:19px}
+  .snip .s{padding:8px 12px}
+  .snip .s b{font-size:19px}
+  .art-wrap{padding:22px 12px;border-radius:26px}
+  .phone{transform-origin:top center}
+  .cap{margin-top:10px}
+
+  /* earn */
+  .earn-grid{margin-top:32px;gap:28px}
+  .er{padding:15px 0;gap:4px}
+  .er h3{font-size:20px}
+  .er p{font-size:14.5px;line-height:1.5}
+  .calc{padding:22px 20px;border-radius:22px;gap:16px}
+  .calc h3{font-size:22px}
+  .sl label{font-size:14px;margin-bottom:4px}
+  .sl label span{font-size:19px}
+  .keep{padding:18px;border-radius:16px}
+  .keep .b{font-size:40px}
+
+  /* how it works */
+  .steps{margin-top:28px;gap:12px}
+  .step{padding:20px;border-radius:20px;gap:8px}
+  .step .n{font-size:32px}
+  .step h3{font-size:20px}
+  .step p{font-size:14.5px;line-height:1.5}
+  .step .tagp{padding:6px 13px;font-size:13px}
+
+  /* pricing */
+  .price{gap:28px}
+  .price-l{gap:14px}
+  .facts{gap:8px}
+  .facts div{padding:9px 14px;border-radius:14px}
+  .facts b{font-size:21px}
+  .price-card{padding:24px 20px;border-radius:24px;gap:16px}
+  .price-card .big b{font-size:56px}
+  .price-card .big span{font-size:15px}
+  .price-card ul{gap:9px;font-size:14.5px}
+  .price-card li.hl{padding:10px 12px}
+  .price-card .small{font-size:12.5px}
+
+  /* join + footer */
+  .join{padding:56px 20px}
+  .join .in{gap:16px}
+  .join h2{font-size:30px}
+  .join p{font-size:15.5px;line-height:1.55}
+  .join .btn{min-height:54px;padding:0 32px;font-size:16.5px}
+  .join .t{font-size:13px;gap:6px 18px}
+  .join .seek{padding:13px 16px;font-size:13.5px}
+  footer{padding:24px 20px}
+  footer .in{font-size:13px;gap:8px}
+  footer .lg{font-size:18px}
+}
