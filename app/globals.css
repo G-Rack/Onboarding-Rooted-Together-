@@ -323,11 +323,21 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
   .sec{padding:56px 0}
 }
 
-/* ===== phone: Today / With Rooted Together cards (phone only) ===== */
+/* ===== Today / With Rooted Together: phones get stacked before/after pairs ===== */
+.pairs{display:none}
 @media (max-width:700px){
-  .problem-grid{margin-top:32px;gap:14px}
-  .pcard{flex:1 1 100%;padding:24px 20px;border-radius:24px}
-  .row{gap:12px;padding:14px 0;font-size:15.5px;line-height:1.5}
-  .row svg{width:18px;height:18px;margin-top:2px}
-  .tag{font-size:11.5px;padding:6px 12px}
+  .problem-grid{display:none}
+  .pairs{display:flex;flex-direction:column;gap:14px;margin-top:32px}
+  .pair{border-radius:22px;overflow:hidden;box-shadow:0 1px 0 rgba(46,27,16,.04)}
+  .pair-a,.pair-b{padding:16px 18px 18px}
+  .pair-a{background:var(--sand);color:var(--muted)}
+  .pair-b{background:var(--brown);color:var(--cream)}
+  .pair-label{display:block;margin-bottom:8px;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+  .pair-a .pair-label{color:#9A7E66}
+  .pair-b .pair-label{color:var(--gold)}
+  .pair-line{display:flex;gap:12px;font-size:15.5px;line-height:1.5}
+  .pair-line svg{flex:none;width:18px;height:18px;margin-top:2px}
+  .pair-a .pair-line svg{stroke:#9A7E66}
+  .pair-b .pair-line svg{stroke:var(--gold);stroke-width:2.4}
+  .pair-b .pair-line{font-weight:500}
 }
