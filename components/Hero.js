@@ -7,7 +7,6 @@ export default function Hero() {
 <section className="hero">
   <div className="wrap">
     <div className="hero-copy">
-      <div className="pill">For spiritual mothers, pastors, churches and ministries</div>
       <h1>Open your storefront. <em>Earn from what you already teach.</em></h1>
       <p className="lead">Rooted Together is a marketplace and community app for faith leaders, churches and ministries. Set up your own storefront, publish courses, ebooks and daily routines, take paid 1:1 calls and prayer requests, and get paid straight to your bank.</p>
       <div className="cta-row">

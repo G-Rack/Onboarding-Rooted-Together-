@@ -57,7 +57,6 @@ export default function Churches() {
               <div className="cs-off"><div className="oi"><svg className="ico"><use href="#i-heart" /></svg></div><div><b>Pastoral care call</b><small>30 minutes</small></div><span className="pr">$40</span></div>
             </div>
           </div>
-          <div className="cs-cap">Example storefront, for illustration</div>
         </div>
       </div>
     </section>

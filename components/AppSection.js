@@ -29,7 +29,6 @@ export default function AppSection() {
     
     <div className="block">
       <div className="block-copy">
-        <div className="pages"><span className="chip"><svg className="ico"><use href="#i-compass"/></svg>Explore</span><span className="chip"><svg className="ico"><use href="#i-person"/></svg>Profile</span></div>
         <h3>Build your spiritual following and gather tailored communities.</h3>
         <p className="lead">Share what you teach on Explore and let people who resonate follow you. Then bring them together in communities you shape yourself, each with its own purpose.</p>
         <ul className="feat">
@@ -85,7 +84,6 @@ export default function AppSection() {
               </div>
             </div></div>
           </div>
-          <div className="cap">App preview with example content</div>
         </div>
       </div>
     </div>
@@ -93,7 +91,6 @@ export default function AppSection() {
     
     <div className="block rev">
       <div className="block-copy">
-        <div className="pages"><span className="chip"><svg className="ico"><use href="#i-people"/></svg>Directory</span><span className="chip"><svg className="ico"><use href="#i-chat"/></svg>Chat</span></div>
         <h3>Find the people who resonate with you, and speak with them directly.</h3>
         <p className="lead">You were never meant to lead alone. Search the directory by name or focus, then start a private conversation with the mothers, pastors and leaders who understand your season.</p>
         <ul className="feat">
@@ -139,7 +136,6 @@ export default function AppSection() {
               </div>
             </div></div>
           </div>
-          <div className="cap">App preview with example content</div>
         </div>
       </div>
     </div>
@@ -147,7 +143,6 @@ export default function AppSection() {
     
     <div className="block">
       <div className="block-copy">
-        <div className="pages"><span className="chip"><svg className="ico"><use href="#i-home"/></svg>Family</span></div>
         <h3>Join a close spiritual family, and shepherd one of your own.</h3>
         <p className="lead">Leaders need shepherding too. A Spiritual Family is the small circle you walk with: they pray for each other, carry each other, and always know where to find you.</p>
         <ul className="feat">
@@ -174,7 +169,6 @@ export default function AppSection() {
               </div>
             </div></div>
           </div>
-          <div className="cap">App preview with example content</div>
         </div>
       </div>
     </div>
