@@ -1,0 +1,134 @@
+/* Invitation-only page (/chosen): the invitation-word gate and the pledge page. */
+
+.ch-logo{display:inline-flex;align-items:center;gap:10px;font-family:var(--serif);font-weight:700;font-size:22px;color:var(--tan);letter-spacing:-.01em;white-space:nowrap}
+.ch-logo i{display:grid;place-items:center;width:34px;height:34px;border-radius:10px;border:1.5px solid var(--gold);font-style:normal;font-size:14px;background:var(--brown);color:var(--cream)}
+.ch-logo-dark{color:var(--brown)}
+.ch-eyebrow{font-size:12.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.ch-eyebrow-dark{color:var(--brown)}
+
+/* ---------- gate ---------- */
+.ch-gate{position:relative;overflow:hidden;min-height:100vh;min-height:100dvh;display:flex;flex-direction:column;background:var(--deep);color:var(--cream)}
+.ch-glow{position:absolute;right:-220px;top:-220px;width:760px;height:760px;border-radius:50%;background:radial-gradient(circle,rgba(200,146,63,.26),rgba(200,146,63,0) 68%);pointer-events:none}
+.ch-ring{position:absolute;left:-260px;bottom:-300px;width:640px;height:640px;border-radius:50%;border:1.5px solid rgba(232,205,168,.16);pointer-events:none}
+.ch-ring-b{left:-200px;bottom:-240px;width:520px;height:520px;border-color:rgba(232,205,168,.1)}
+.ch-top{position:relative;display:flex;align-items:center;padding:28px 64px}
+.ch-gate-body{position:relative;flex:1;display:flex;align-items:center;justify-content:center;padding:24px 24px 96px}
+.ch-gate-in{width:100%;max-width:640px;display:flex;flex-direction:column;align-items:center;gap:28px;text-align:center}
+.ch-gate-h{font-family:var(--serif);font-weight:700;font-size:60px;line-height:1.05;letter-spacing:-.02em;text-wrap:balance}
+.ch-gate-h em{font-style:italic;font-weight:500;color:var(--tan)}
+.ch-gate-lead{font-size:18px;line-height:1.6;color:#D9C7B3;max-width:500px}
+.ch-form{width:100%;max-width:460px;display:flex;flex-direction:column;gap:14px;margin-top:8px}
+.ch-label{text-align:left;font-size:13px;font-weight:600;color:var(--tan)}
+.ch-field{position:relative}
+.ch-field input{width:100%;height:60px;padding:0 84px 0 24px;border-radius:999px;border:1.5px solid rgba(232,205,168,.4);background:rgba(251,246,239,.07);color:var(--cream);font-family:var(--sans);font-size:18px;letter-spacing:.06em}
+.ch-field input:focus{outline:3px solid var(--gold);outline-offset:2px}
+.ch-field input[aria-invalid="true"]{border-color:#E7A19A}
+.ch-show{position:absolute;right:8px;top:8px;height:44px;padding:0 16px;border:0;border-radius:999px;background:transparent;color:var(--tan);font-family:var(--sans);font-weight:600;font-size:14px;cursor:pointer}
+.ch-show:hover{color:var(--cream)}
+.ch-error{text-align:left;font-size:14px;line-height:1.5;color:#F2B8B1}
+.ch-go{height:60px;border-radius:999px;border:0;background:var(--gold);color:var(--deep);font-family:var(--sans);font-weight:700;font-size:17px;cursor:pointer;transition:background .15s}
+.ch-go:hover:not(:disabled){background:#E0A94F}
+.ch-go:disabled{opacity:.7;cursor:wait}
+.ch-help{font-size:14px;line-height:1.6;color:#D9C7B3}
+.ch-help a{color:var(--tan);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+
+/* ---------- pledge ---------- */
+.ch-page{background:var(--cream);color:var(--deep)}
+.ch-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:22px 64px;border-bottom:1px solid var(--line)}
+.ch-badge{display:inline-flex;align-items:center;gap:8px;padding:8px 16px;border-radius:999px;background:var(--sand);color:var(--brown);font-size:13px;font-weight:600;white-space:nowrap}
+.ch-hero{max-width:1200px;margin:0 auto;padding:96px 64px 88px;display:flex;flex-wrap:wrap;gap:64px;align-items:center}
+.ch-hero-copy{flex:1 1 560px;min-width:0;display:flex;flex-direction:column;gap:26px}
+.ch-hero-h{font-family:var(--serif);font-weight:700;font-size:64px;line-height:1.04;letter-spacing:-.02em;text-wrap:balance}
+.ch-hero-h em{font-style:italic;font-weight:500;color:var(--brown)}
+.ch-hero-lead{max-width:560px;font-size:20px;line-height:1.6;color:var(--muted)}
+.ch-glance{flex:1 1 380px;min-width:0;max-width:440px;margin:0 auto;border-radius:28px;background:#fff;border:1px solid var(--line);padding:32px;display:flex;flex-direction:column;gap:22px;box-shadow:0 24px 50px rgba(46,27,16,.1)}
+.ch-glance-top{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+.ch-glance-top b{font-family:var(--serif);font-size:22px}
+.ch-glance-top span{font-size:14px;font-weight:600;color:var(--muted)}
+.ch-bar-track{height:8px;border-radius:999px;background:var(--sand)}
+.ch-bar-track span{display:block;width:6%;height:8px;border-radius:999px;background:var(--gold)}
+.ch-glance-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px;font-size:16px}
+.ch-glance-list li{display:flex;align-items:center;gap:12px}
+.ch-glance-list i{flex:none;width:22px;height:22px;border-radius:50%;border:2px solid #C9AD8E}
+.ch-unlock{display:flex;align-items:center;gap:12px;padding:14px 16px;border-radius:16px;background:var(--deep);color:var(--cream);font-size:14.5px;line-height:1.4}
+.ch-unlock svg{flex:none;color:var(--gold)}
+.ch-unlock strong{color:var(--tan)}
+
+.ch-in{max-width:1000px;margin:0 auto;padding:0 64px;display:flex;flex-direction:column;gap:14px}
+.ch-in-wide{max-width:1200px}
+.ch-in-narrow{max-width:760px;align-items:center;text-align:center;gap:26px}
+.ch-h2{font-family:var(--serif);font-weight:700;font-size:46px;line-height:1.08;letter-spacing:-.015em;max-width:680px;text-wrap:balance}
+.ch-in-narrow .ch-h2{font-size:42px}
+.ch-light{color:var(--cream)}
+
+.ch-steps{background:var(--sand);padding:88px 0}
+.ch-step-list{list-style:none;margin:30px 0 0;padding:0;display:flex;flex-direction:column;gap:18px}
+.ch-step{display:flex;align-items:center;gap:28px;padding:30px 34px;border-radius:26px;background:#fff;border:1px solid var(--line)}
+.ch-num{flex:none;display:grid;place-items:center;width:56px;height:56px;border-radius:50%;background:var(--brown);color:var(--cream);font-family:var(--serif);font-weight:700;font-size:24px}
+.ch-step h3{font-family:var(--serif);font-weight:600;font-size:26px;margin-bottom:8px}
+.ch-step p{font-size:16.5px;line-height:1.6;color:var(--muted)}
+
+.ch-reward{background:var(--deep);color:var(--cream);padding:96px 0}
+.ch-reward .ch-in{gap:14px}
+.ch-perks{margin-top:34px;display:flex;flex-wrap:wrap;gap:20px}
+.ch-perk{flex:1 1 300px;padding:30px;border-radius:24px;background:rgba(251,246,239,.07);border:1px solid #5A3A25;display:flex;flex-direction:column;gap:14px}
+.ch-perk svg{color:var(--gold)}
+.ch-perk h3{font-family:var(--serif);font-weight:600;font-size:24px}
+.ch-perk p{font-size:16px;line-height:1.6;color:#D9C7B3}
+
+.ch-final{padding:96px 0 104px}
+.ch-quote{font-family:var(--serif);font-style:italic;font-weight:500;font-size:24px;line-height:1.5;color:var(--brown)}
+.ch-cta{display:flex;flex-direction:column;align-items:center;gap:22px;width:100%}
+.ch-check{display:flex;align-items:center;gap:14px;font-size:16.5px;cursor:pointer}
+.ch-check input{width:24px;height:24px;accent-color:var(--brown)}
+.ch-begin{display:inline-flex;align-items:center;justify-content:center;min-height:60px;padding:0 44px;border-radius:999px;background:var(--brown);color:var(--cream);font-weight:700;font-size:18px;transition:background .15s,opacity .15s}
+.ch-begin:hover{background:var(--deep)}
+.ch-begin.is-off{opacity:.45;cursor:not-allowed}
+.ch-begin.is-off:hover{background:var(--brown)}
+.ch-begin:focus-visible,.ch-check input:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.ch-cta-note{font-size:14px;color:var(--muted)}
+.ch-foot{padding:28px 24px;border-top:1px solid var(--line);font-size:13.5px;color:var(--muted);text-align:center}
+
+/* ---------- phones ---------- */
+@media (max-width:700px){
+  .ch-logo{font-size:19px} .ch-logo i{width:30px;height:30px;font-size:12px}
+  .ch-eyebrow{font-size:11.5px}
+  .ch-top{padding:20px}
+  .ch-gate-body{padding:16px 24px 64px}
+  .ch-gate-in{gap:22px}
+  .ch-gate-h{font-size:38px;line-height:1.08}
+  .ch-gate-lead{font-size:16px;line-height:1.55}
+  .ch-field input{height:56px;padding:0 80px 0 22px;font-size:17px}
+  .ch-go{height:56px;font-size:16.5px}
+  .ch-help{font-size:13.5px}
+
+  .ch-bar{padding:16px 20px}
+  .ch-badge{font-size:12px;padding:6px 12px}
+  .ch-hero{padding:44px 20px 40px;gap:36px}
+  .ch-hero-copy{gap:20px}
+  .ch-hero-h{font-size:36px;line-height:1.06}
+  .ch-hero-lead{font-size:16.5px;line-height:1.6}
+  .ch-glance{padding:24px;border-radius:24px;gap:18px}
+  .ch-glance-top b{font-size:20px} .ch-glance-top span{font-size:13px}
+  .ch-glance-list{font-size:15.5px;gap:12px}
+  .ch-unlock{padding:13px 14px;font-size:14px}
+  .ch-in{padding:0 20px;gap:12px}
+  .ch-h2{font-size:30px;line-height:1.1}
+  .ch-in-narrow .ch-h2{font-size:32px}
+  .ch-steps{padding:52px 0}
+  .ch-step-list{margin-top:18px;gap:14px}
+  .ch-step{flex-direction:column;align-items:flex-start;gap:12px;padding:22px;border-radius:22px}
+  .ch-num{width:44px;height:44px;font-size:20px}
+  .ch-step h3{font-size:22px;margin-bottom:6px}
+  .ch-step p{font-size:15.5px;line-height:1.55}
+  .ch-reward{padding:56px 0}
+  .ch-perks{margin-top:18px;gap:14px}
+  .ch-perk{flex-basis:100%;padding:22px;border-radius:20px;gap:10px}
+  .ch-perk h3{font-size:20px} .ch-perk p{font-size:15px;line-height:1.55}
+  .ch-final{padding:56px 0 64px}
+  .ch-in-narrow{gap:22px}
+  .ch-quote{font-size:20px}
+  .ch-begin{width:100%;min-height:56px;padding:0 24px;font-size:17px}
+  .ch-cta-note{font-size:13.5px;line-height:1.5}
+  .ch-foot{font-size:13px}
+}
