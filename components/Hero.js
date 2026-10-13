@@ -17,38 +17,32 @@ export default function Hero() {
     </div>
 
     <div className="hero-art">
-      <div className="hero-stage">
-        <div className="arch"></div>
-        <div className="phone">
-          <div className="scr">
-            <div className="sb"><span>9:41</span><span></span></div>
-            <div className="sc-body">
-              <div className="sc-title"><h4>Your Spiritual Family</h4></div>
-              <div className="avs">
-                <div className="av c1">G</div><div className="av c2">R</div><div className="av c3">A</div><div className="av c4">J</div>
-                <small>+24 praying</small>
-              </div>
-              <div className="post">
-                <div style={{ fontSize: '9.5px', fontWeight: '700', letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--brown)' }}>Prayer request</div>
-                <p>Please pray for my family as we move cities this month.</p>
-                <div className="post-h"><small>Grace M.</small><span className="follow" style={{ background: 'var(--brown)', color: 'var(--cream)' }}>I'm praying</span></div>
-              </div>
-              <div className="mem"><div><div style={{ fontSize: '9.5px', fontWeight: '700', letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--brown)' }}>New sale</div><b>Rooted Mornings</b></div><b style={{ fontFamily: 'var(--serif)', fontSize: '19px', color: 'var(--brown)' }}>+$7.20</b></div>
-              <div className="fam-card" style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}><div><div className="l">1:1 call booked</div><p style={{ fontWeight: '600' }}>Thursday, 4:00 PM</p></div><svg className="ico" style={{ fontSize: '24px', color: 'var(--tan)' }}><use href="#i-video"/></svg></div>
-            </div>
-            <div className="tbar">
-              <div><svg className="ico"><use href="#i-compass"/></svg>Explore</div>
-              <div><svg className="ico"><use href="#i-people"/></svg>Directory</div>
-              <div><svg className="ico"><use href="#i-chat"/></svg>Chat</div>
-              <div className="on"><svg className="ico"><use href="#i-home"/></svg>Family</div>
-              <div><svg className="ico"><use href="#i-person"/></svg>Profile</div>
-            </div>
-          </div>
-        </div>
-        <div className="float" style={{ right: '-26px', top: '404px' }}><svg className="ico" style={{ fontSize: '18px', color: 'var(--brown)', strokeWidth: '2.4' }}><use href="#i-check"/></svg>Payout on its way</div>
-        <div className="float gold" style={{ left: '-26px', top: '470px' }}><svg className="ico" style={{ fontSize: '18px' }}><use href="#i-heart"/></svg>Your family is praying</div>
-      </div>
-    </div>
+<div className="hero-stage">
+ <div className="arch"></div>
+ <div className="phone"><div className="scr">
+ <div className="sb"><span>9:41</span><span></span></div>
+ <div className="sc-body" style={{ gap: '9px' }}>
+  <div className="sc-title"><h4>Profile</h4><span className="mini-btn" style={{ background: 'var(--sand)', color: 'var(--brown)' }}>Edit</span></div>
+  <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+    <div className="av c1" style={{ width: '54px', height: '54px', fontSize: '20px', border: '3px solid var(--sand)' }}>D</div>
+    <div><div style={{ fontFamily: 'var(--serif)', fontWeight: '700', fontSize: '18px', lineHeight: '1.15' }}>Pastor Daniel</div><span className="role" style={{ margin: '4px 0 0', display: 'inline-block' }}>Pastor</span></div>
+  </div>
+  <div className="stats"><div><b>1,248</b><span>Followers</span></div><div><b>3</b><span>Communities</span></div><div><b>24</b><span>Family</span></div></div>
+  <div className="bal">
+    <div className="bal-top"><div><div className="l">Available balance</div><div className="n">$1,284.60</div></div><span className="up">+18%</span></div>
+    <svg viewBox="0 0 220 44" preserveAspectRatio="none" className="spark"><path d="M0 36 L24 30 L48 33 L72 22 L96 26 L120 15 L144 20 L170 9 L196 12 L220 3 L220 44 L0 44Z" fill="rgba(200,146,63,.22)"/><polyline points="0,36 24,30 48,33 72,22 96,26 120,15 144,20 170,9 196,12 220,3" fill="none" stroke="#C8923F" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+    <div className="bal-btn">Request payout</div>
+  </div>
+  <div className="comm"><div className="ci"><svg className="ico"><use href="#i-people"/></svg></div><div><b>Mothers in Prayer</b><small>86 members</small></div></div>
+  <div className="comm"><div className="ci"><svg className="ico"><use href="#i-heart"/></svg></div><div><b>New Believers Circle</b><small>42 members</small></div></div>
+ </div>
+ <div className="tbar"><div><svg className="ico"><use href="#i-compass"/></svg>Explore</div><div><svg className="ico"><use href="#i-people"/></svg>Directory</div><div><svg className="ico"><use href="#i-chat"/></svg>Chat</div><div><svg className="ico"><use href="#i-home"/></svg>Family</div><div className="on"><svg className="ico"><use href="#i-person"/></svg>Profile</div></div>
+</div></div>
+ <div className="note" style={{ right: '-132px', top: '110px' }}><div className="ni" style={{ background: 'var(--brown)', color: 'var(--cream)' }}><svg className="ico"><use href="#i-person"/></svg></div><div><b>New follower</b><span>Grace M. started following you</span></div></div>
+ <div className="note" style={{ left: '-124px', top: '300px' }}><div className="ni" style={{ background: 'var(--gold)', color: 'var(--deep)' }}><svg className="ico"><use href="#i-card"/></svg></div><div><b>Rooted Mornings sold</b><span>+$7.20 added to your balance</span></div></div>
+ <div className="note" style={{ right: '-128px', top: '470px' }}><div className="ni" style={{ background: 'var(--olive)', color: 'var(--cream)' }}><svg className="ico"><use href="#i-heart"/></svg></div><div><b>Your family is praying</b><span>24 people prayed today</span></div></div>
+</div>
+</div>
   </div>
 </section>
     </>
