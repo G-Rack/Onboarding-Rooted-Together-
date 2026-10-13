@@ -313,3 +313,12 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
 }
 .oi{flex:none;width:34px;height:34px;border-radius:10px;background:var(--sand);color:var(--brown);display:grid;place-items:center;font-size:18px}
 .pr{flex:none;font-family:var(--serif);font-weight:700;font-size:16px;color:var(--brown)}
+
+/* ===== phone spacing: offerings strip and the gaps around it (phone only) ===== */
+@media (max-width:700px){
+  .hero .wrap{padding-bottom:40px}
+  .strip{padding:26px 20px}
+  .strip div{display:grid;grid-template-columns:1fr 1fr;gap:16px 12px;justify-items:center;text-align:center;font-size:18px;line-height:1.25}
+  .strip span.d{display:none}
+  .sec{padding:56px 0}
+}
