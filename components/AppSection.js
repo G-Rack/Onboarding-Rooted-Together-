@@ -17,11 +17,6 @@ export default function AppSection() {
       </div>
     </div>
 
-    <div className="creators-note">
-      <svg className="ico"><use href="#i-info"/></svg>
-      <p><b>A quick note on who this is for.</b> This website is for creators, the spiritual mothers, pastors, churches and ministries who publish and earn. People who come to the app to find guidance and community are seekers and assistants, and they join the app directly rather than through this page.</p>
-    </div>
-
     
     <div className="tabs5">
       <div className="tab5"><div className="ti"><svg className="ico"><use href="#i-compass"/></svg></div><b>Explore</b><span>A feed of teaching and encouragement</span></div>

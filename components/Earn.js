@@ -5,8 +5,8 @@ import { useState } from 'react'
 const fmt = (n) => '$' + n.toLocaleString('en-US')
 
 export default function Earn() {
-  const [price, setPrice] = useState(18)
-  const [sales, setSales] = useState(30)
+  const [price, setPrice] = useState(16)
+  const [sales, setSales] = useState(88)
   const gross = price * sales
   const keep = Math.round(gross * 0.9)
   const fee = gross - keep
