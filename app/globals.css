@@ -322,3 +322,12 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
   .strip span.d{display:none}
   .sec{padding:56px 0}
 }
+
+/* ===== phone: Today / With Rooted Together cards (phone only) ===== */
+@media (max-width:700px){
+  .problem-grid{margin-top:32px;gap:14px}
+  .pcard{flex:1 1 100%;padding:24px 20px;border-radius:24px}
+  .row{gap:12px;padding:14px 0;font-size:15.5px;line-height:1.5}
+  .row svg{width:18px;height:18px;margin-top:2px}
+  .tag{font-size:11.5px;padding:6px 12px}
+}
