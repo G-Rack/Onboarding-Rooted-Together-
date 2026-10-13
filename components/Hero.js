@@ -1,4 +1,5 @@
 import { CHECKOUT_URL } from '@/lib/config'
+import RuthAvatar from '@/components/RuthAvatar'
 
 export default function Hero() {
   return (
@@ -24,8 +25,8 @@ export default function Hero() {
  <div className="sc-body" style={{ gap: '9px' }}>
   <div className="sc-title"><h4>Profile</h4><span className="mini-btn" style={{ background: 'var(--sand)', color: 'var(--brown)' }}>Edit</span></div>
   <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-    <div className="av c1" style={{ width: '54px', height: '54px', fontSize: '20px', border: '3px solid var(--sand)' }}>D</div>
-    <div><div style={{ fontFamily: 'var(--serif)', fontWeight: '700', fontSize: '18px', lineHeight: '1.15' }}>Pastor Daniel</div><span className="role" style={{ margin: '4px 0 0', display: 'inline-block' }}>Pastor</span></div>
+    <RuthAvatar size={58} />
+    <div><div style={{ fontFamily: 'var(--serif)', fontWeight: '700', fontSize: '18px', lineHeight: '1.15' }}>Mother Ruth</div><span className="role" style={{ margin: '4px 0 0', display: 'inline-block' }}>Mother</span></div>
   </div>
   <div className="stats"><div><b>1,248</b><span>Followers</span></div><div><b>3</b><span>Communities</span></div><div><b>24</b><span>Family</span></div></div>
   <div className="bal">
