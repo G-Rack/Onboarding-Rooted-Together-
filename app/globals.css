@@ -341,3 +341,13 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
   .pair-b .pair-line svg{stroke:var(--gold);stroke-width:2.4}
   .pair-b .pair-line{font-weight:500}
 }
+
+/* ===== phone: "Your storefront" feature cards become compact icon + text rows ===== */
+@media (max-width:700px){
+  #value .h2{font-size:30px}
+  .cards{margin-top:28px;gap:12px}
+  .card{display:grid;grid-template-columns:44px 1fr;column-gap:14px;row-gap:4px;align-items:start;padding:18px 18px 18px 16px;border-radius:20px}
+  .card .ib{grid-row:1 / span 2;width:44px;height:44px;border-radius:13px;font-size:22px}
+  .card h3{font-size:18.5px;line-height:1.25;align-self:center;min-height:44px;display:flex;align-items:center}
+  .card p{grid-column:2;font-size:14.5px;line-height:1.5;margin:0}
+}
