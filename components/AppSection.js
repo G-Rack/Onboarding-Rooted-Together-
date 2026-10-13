@@ -19,13 +19,13 @@ export default function AppSection() {
 
     <div className="creators-note">
       <svg className="ico"><use href="#i-info"/></svg>
-      <p><b>A quick note on who this is for.</b> This website is for creators, the spiritual mothers, pastors and leaders who publish and earn. People who come to the app to find guidance and community are seekers and assistants, and they join the app directly rather than through this page.</p>
+      <p><b>A quick note on who this is for.</b> This website is for creators, the spiritual mothers, pastors, churches and ministries who publish and earn. People who come to the app to find guidance and community are seekers and assistants, and they join the app directly rather than through this page.</p>
     </div>
 
     
     <div className="tabs5">
       <div className="tab5"><div className="ti"><svg className="ico"><use href="#i-compass"/></svg></div><b>Explore</b><span>A feed of teaching and encouragement</span></div>
-      <div className="tab5"><div className="ti"><svg className="ico"><use href="#i-people"/></svg></div><b>Directory</b><span>Find mothers, pastors and leaders</span></div>
+      <div className="tab5"><div className="ti"><svg className="ico"><use href="#i-people"/></svg></div><b>Directory</b><span>Find mothers, pastors, leaders and ministries</span></div>
       <div className="tab5"><div className="ti"><svg className="ico"><use href="#i-chat"/></svg></div><b>Chat</b><span>Private one-to-one conversations</span></div>
       <div className="tab5"><div className="ti"><svg className="ico"><use href="#i-home"/></svg></div><b>Family</b><span>Your close spiritual circle</span></div>
       <div className="tab5"><div className="ti"><svg className="ico"><use href="#i-person"/></svg></div><b>Profile</b><span>Your following and communities</span></div>

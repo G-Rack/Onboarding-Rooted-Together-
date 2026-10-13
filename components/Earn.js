@@ -16,7 +16,7 @@ export default function Earn() {
   <div className="wrap">
     <div className="sec-head">
       <div className="eyebrow gold">Earn from your calling</div>
-      <h2 className="h2" style={{ color: 'var(--cream)' }}>Four ways to be sustained by the work you already carry.</h2>
+      <h2 className="h2" style={{ color: 'var(--cream)' }}>Four ways to fund the work you already carry.</h2>
       <p className="lead" style={{ color: '#D9C7B3', maxWidth: '640px' }}>You keep 90% of every sale. Rooted Together keeps 10%, so we only do well when you do.</p>
     </div>
     <div className="earn-grid">

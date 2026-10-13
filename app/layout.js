@@ -9,9 +9,9 @@ import '@fontsource/inter/700.css'
 import './globals.css'
 import { SITE_NAME, SITE_URL } from '@/lib/config'
 
-const title = 'Rooted Together for Creators: open your storefront and earn from what you teach'
+const title = 'Rooted Together for Leaders, Churches and Ministries: open your storefront and earn from what you teach'
 const description =
-  'A marketplace for spiritual mothers, pastors and leaders. Open your storefront, sell courses, ebooks, routines, 1:1 calls and prayer requests, and get paid to your bank through Stripe.'
+  'A marketplace for spiritual mothers, pastors, churches and ministries. Open your storefront, sell courses, ebooks, routines, 1:1 calls and prayer requests, and get paid to your bank through Stripe.'
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),

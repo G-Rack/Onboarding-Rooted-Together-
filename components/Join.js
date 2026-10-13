@@ -6,7 +6,7 @@ export default function Join() {
 <section id="join" className="join">
   <div className="in">
     <div className="eyebrow gold">Join Rooted Together</div>
-    <h2>Your calling deserves a home. Open yours today.</h2>
+    <h2>Your calling, your church or your ministry deserves a home. Open yours today.</h2>
     <p>Pay once, create your account, and your storefront and the full app are ready for your first course, post, routine or call.</p>
     <a className="btn btn-g" href={CHECKOUT_URL}>Join for $49</a>
     <div className="t"><span>One-time payment</span><span>No monthly fees</span><span>90% of every sale yours</span></div>

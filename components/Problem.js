@@ -12,11 +12,11 @@ export default function Problem() {
       <div className="pcard a">
         <span className="tag">Today</span>
         <div style={{ marginTop: '10px' }}>
-          <div className="row"><svg className="ico"><use href="#i-x"/></svg><div>Your people are split across group chats, livestreams and a link in your bio.</div></div>
-          <div className="row"><svg className="ico"><use href="#i-x"/></svg><div>Years of teaching live in sermons and DMs, free by default.</div></div>
+          <div className="row"><svg className="ico"><use href="#i-x"/></svg><div>Your people are split across group chats, livestreams, a church website and a link in your bio.</div></div>
+          <div className="row"><svg className="ico"><use href="#i-x"/></svg><div>Years of teaching live in sermon recordings and DMs, free by default.</div></div>
           <div className="row"><svg className="ico"><use href="#i-x"/></svg><div>Calls and prayer requests are arranged by message, and rarely paid for.</div></div>
           <div className="row"><svg className="ico"><use href="#i-x"/></svg><div>Getting paid means chasing transfers, cash and gifts.</div></div>
-          <div className="row"><svg className="ico"><use href="#i-x"/></svg><div>The calling can feel lonely.</div></div>
+          <div className="row"><svg className="ico"><use href="#i-x"/></svg><div>The calling can feel lonely, whether you lead a congregation or a ministry team.</div></div>
         </div>
       </div>
       <div className="pcard b">
@@ -26,7 +26,7 @@ export default function Problem() {
           <div className="row"><svg className="ico"><use href="#i-check"/></svg><div>Courses, ebooks and routines you price and publish yourself.</div></div>
           <div className="row"><svg className="ico"><use href="#i-check"/></svg><div>1:1 calls and prayer requests booked and paid in one step.</div></div>
           <div className="row"><svg className="ico"><use href="#i-check"/></svg><div>Secure payouts through Stripe, with 90% of every sale yours.</div></div>
-          <div className="row"><svg className="ico"><use href="#i-check"/></svg><div>A community of spiritual mothers, pastors and leaders who understand.</div></div>
+          <div className="row"><svg className="ico"><use href="#i-check"/></svg><div>A community of spiritual mothers, pastors, churches and ministries who understand.</div></div>
         </div>
       </div>
     </div>

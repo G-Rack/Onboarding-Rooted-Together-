@@ -5,6 +5,7 @@ import Hero from '@/components/Hero'
 import OfferingsStrip from '@/components/OfferingsStrip'
 import Problem from '@/components/Problem'
 import Value from '@/components/Value'
+import Churches from '@/components/Churches'
 import AppSection from '@/components/AppSection'
 import Earn from '@/components/Earn'
 import HowItWorks from '@/components/HowItWorks'
@@ -24,6 +25,7 @@ export default function Home() {
       <OfferingsStrip />
       <Problem />
       <Value />
+      <Churches />
       <AppSection />
       <Earn />
       <HowItWorks />
