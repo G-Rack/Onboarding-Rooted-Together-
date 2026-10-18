@@ -8,6 +8,14 @@ import './chosen.css'
 // are told not to list it. It reads the visitor's cookie on every request.
 export const dynamic = 'force-dynamic'
 
+// Lets the page run edge to edge on phones (under the status bar and the browser's bottom bar);
+// the CSS pads for the safe areas so nothing sits underneath them.
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  viewportFit: 'cover',
+}
+
 const title = 'You were invited | Rooted Together'
 const description = 'A private invitation to help build a home for people who need spiritual support.'
 

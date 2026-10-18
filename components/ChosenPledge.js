@@ -38,7 +38,7 @@ export default function ChosenPledge({ token = '' }) {
         <div className="ch-hero-copy">
           <div className="ch-eyebrow ch-eyebrow-dark">Your mission</div>
           <h1 className="ch-hero-h">You were chosen to build a home for <em>those who need spiritual support.</em></h1>
-          <p className="ch-hero-lead">Too many people carry heavy seasons alone. We are gathering Spiritual Mothers, pastors, churches and ministries to build a community where no one has to. Share what you know, free or paid, with the people who are searching for it.</p>
+          <p className="ch-hero-lead">Too many people carry heavy seasons alone. We are gathering Spiritual Mothers, pastors, churches and ministries to build a community where no one is left to face them alone. Share what you know, free or paid, with the people who are searching for it.</p>
         </div>
 
         <aside className="ch-glance" aria-label="Your pledge at a glance">
