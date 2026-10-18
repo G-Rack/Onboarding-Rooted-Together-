@@ -20,7 +20,7 @@ export default function ChosenGate() {
       <div className="ch-gate-body">
         <div className="ch-gate-in">
           <div className="ch-eyebrow">By invitation only</div>
-          <h1 className="ch-gate-h">You were invited to <em>build something.</em></h1>
+          <h1 className="ch-gate-h">You are invited to <em>build something.</em></h1>
           <p className="ch-gate-lead">Enter the invitation word from our message to see what you have been asked to carry.</p>
 
           <form action={formAction} className="ch-form">

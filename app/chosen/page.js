@@ -16,7 +16,7 @@ export const viewport = {
   viewportFit: 'cover',
 }
 
-const title = 'You were invited | Rooted Together'
+const title = 'You are invited | Rooted Together'
 const description = 'A private invitation to help build a home for people who need spiritual support.'
 
 export const metadata = {
