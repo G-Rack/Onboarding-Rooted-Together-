@@ -9,7 +9,7 @@ export default function Pricing() {
       <div className="price-l">
         <div className="eyebrow">Pricing</div>
         <h2 className="h2">One payment. Your whole ministry home.</h2>
-        <p className="lead" style={{ maxWidth: '480px' }}>Join once for $49 and open your storefront, on the web and in the app. There is no subscription for your storefront, and nothing to renew. When you sell, Rooted Together keeps 10% and you keep the rest.</p>
+        <p className="lead" style={{ maxWidth: '480px' }}>Join once for $49 and open your storefront, on the web and in the app. There is no subscription for your storefront, and nothing to renew. When you sell, Rooted Together keeps 10% and you keep the rest. We pay Stripe’s card fees out of our 10%, never out of your share.</p>
         <div className="facts">
           <div><b>$49</b><span>paid once</span></div>
           <div><b>$0</b><span>monthly storefront fees</span></div>
@@ -26,7 +26,8 @@ export default function Pricing() {
           <li><svg className="ico"><use href="#i-check"/></svg>Courses, ebooks, routines, 1:1 calls and prayer requests</li>
           <li><svg className="ico"><use href="#i-check"/></svg>Build a following and create tailored communities</li>
           <li><svg className="ico"><use href="#i-check"/></svg>Spiritual Family tools to gather and shepherd your people (optional app Premium)</li>
-          <li><svg className="ico"><use href="#i-check"/></svg>Secure payouts through Stripe, 90% of every sale yours</li>
+          <li><svg className="ico"><use href="#i-check"/></svg>Secure payouts through Stripe, 90% of every sale yours, and we cover Stripe’s card fees</li>
+          <li><svg className="ico"><use href="#i-check"/></svg>Paid items start at $5, and free items are allowed</li>
           <li><svg className="ico"><use href="#i-check"/></svg>No monthly storefront fee, ever</li>
         </ul>
         <a className="btn btn-g" style={{ minHeight: '58px', fontSize: '17px' }} href={CHECKOUT_URL}>Join for $49</a>
