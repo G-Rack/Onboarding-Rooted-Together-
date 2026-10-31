@@ -9,11 +9,11 @@ export default function AppSection() {
       <div className="sec-head">
         <div className="eyebrow">Inside the Rooted Together app</div>
         <h2 className="h2">More than a storefront. A home for your people, and for you.</h2>
-        <p className="lead">Your $49 also makes you a full member of the app, where you grow a following, gather communities, belong to a spiritual family of your own, and meet others who carry the same calling.</p>
+        <p className="lead">The Rooted Together app is free to join, and your storefront lives there too. It is where you grow a following, gather communities, and meet others who carry the same calling.</p>
       </div>
       <div className="included">
-        <div className="k"><b>$49</b><span>one time</span></div>
-        <p><strong>Includes full membership of the app.</strong> Explore, Directory, Chat, Family and your Profile are all unlocked from day one, including starting new conversations. No monthly fee.</p>
+        <div className="k"><b>Free</b><span>to join the app</span></div>
+        <p><strong>The app is free to join.</strong> Explore, Directory and your Profile are free to use. Messaging people and joining or leading a Spiritual Family circle are part of optional app Premium, $49 a year or $5.99 a month, billed through Apple or Google.</p>
       </div>
     </div>
 
@@ -95,7 +95,7 @@ export default function AppSection() {
         <p className="lead">You were never meant to lead alone. Search the directory by name or focus, then start a private conversation with the mothers, pastors and leaders who understand your season.</p>
         <ul className="feat">
           <li><svg className="ico"><use href="#i-check"/></svg><span><b>Search by focus.</b> Marriage, grief, church planting, prayer. Filter by mothers, pastors, seekers or assistants.</span></li>
-          <li><svg className="ico"><use href="#i-check"/></svg><span><b>Message anyone you connect with.</b> One-to-one chat, with new conversations included in your membership.</span></li>
+          <li><svg className="ico"><use href="#i-check"/></svg><span><b>Message anyone you connect with.</b> One-to-one chat. You can always read what people send you, and starting and replying to conversations is part of optional app Premium.</span></li>
           <li><svg className="ico"><use href="#i-check"/></svg><span><b>Grow with purpose.</b> Every connection here is rooted in faith, not follower counts.</span></li>
         </ul>
       </div>
