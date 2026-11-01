@@ -17,7 +17,7 @@ npm run build      # production build check
 Every "Join for $49" / "Create your storefront" button goes to `NEXT_PUBLIC_CHECKOUT_URL`. Until it is set, the buttons just scroll to the pricing card.
 
 1. In Stripe, open Payment Links and create one: product "Rooted Together Creator Membership", $49, one-time. Use test mode first.
-2. Under After payment, choose "Don't show confirmation page" and redirect to `https://rootedtogether.club/login?tab=signup`.
+2. Under After payment, choose "Don't show confirmation page" and redirect to `https://rootedtogether.club/login?tab=signup&session_id={CHECKOUT_SESSION_ID}` (the session_id part is what takes a paid buyer straight to the sign-up form with their email filled in).
 3. Copy the link into `.env.local` as `NEXT_PUBLIC_CHECKOUT_URL=...` and into Vercel (Settings, Environment Variables), then redeploy. The value is baked in at build time, so a redeploy is required after changing it.
 
 Note: the link alone does not stop someone creating a creator account without paying. Gating that needs a Stripe webhook on the main site (record paid emails, then allow creator sign-up only for them).
