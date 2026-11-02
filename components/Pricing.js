@@ -27,7 +27,7 @@ export default function Pricing() {
           <li><svg className="ico"><use href="#i-check"/></svg>No monthly storefront fee, ever</li>
         </ul>
         <div className="btn-row">
-          <a className="btn btn-p" style={{ minHeight: '58px', fontSize: '17px' }} href={CHECKOUT_URL}>Join for $49</a>
+          <a className="btn btn-p" style={{ minHeight: '58px', fontSize: '17px' }} href={CHECKOUT_URL} target="_blank" rel="noopener noreferrer">Join for $49</a>
           <div className="small">Pay once by card through Stripe, then create your account straight away.</div>
         </div>
       </div>
@@ -49,7 +49,7 @@ export default function Pricing() {
           <ProCta className="btn btn-g" style={{ minHeight: '58px', fontSize: '17px' }} href={PRO_CHECKOUT_URL}>Get Creator Pro, $88</ProCta>
           <div className="small">
             Already a member?{' '}
-            {UPGRADE_CHECKOUT_URL ? <a href={UPGRADE_CHECKOUT_URL}>Upgrade for $39</a> : <span>Upgrade for $39 (opens soon)</span>}
+            {UPGRADE_CHECKOUT_URL ? <a href={UPGRADE_CHECKOUT_URL} target="_blank" rel="noopener noreferrer">Upgrade for $39</a> : <span>Upgrade for $39 (opens soon)</span>}
             . Pay the difference once.
           </div>
         </div>

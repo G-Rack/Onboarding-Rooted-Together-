@@ -3,7 +3,7 @@
 export default function ProCta({ href, className, style, children, soon = 'Creator Pro opens soon' }) {
   if (href) {
     return (
-      <a className={className} style={style} href={href}>
+      <a className={className} style={style} href={href} target="_blank" rel="noopener noreferrer">
         {children}
       </a>
     )
