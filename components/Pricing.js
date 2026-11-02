@@ -37,7 +37,7 @@ export default function Pricing() {
         <div className="big"><b>$88</b><span>one-time payment</span></div>
         <hr />
         <ul className="grow">
-          <li className="hl"><svg className="ico"><use href="#i-check"/></svg><span><b>Everything in the Creator membership,</b> plus the tools to grow your storefront</span></li>
+          <li className="hl"><svg className="ico"><use href="#i-check"/></svg><span><b>Everything in the Creator membership, plus:</b></span></li>
           <li><svg className="ico"><use href="#i-check"/></svg><span><b>0% Rooted Together fee</b> on every sale. Stripe’s card fee comes out of the payment</span></li>
           <li><svg className="ico"><use href="#i-check"/></svg><span><b>Rooted Pro badge</b> and priority placement in your category</span></li>
           <li><svg className="ico"><use href="#i-check"/></svg><span><b>Creator Academy:</b> selling more, Instagram and TikTok, and storefront content</span></li>
@@ -56,12 +56,7 @@ export default function Pricing() {
     </div>
 
     <div className="plans-note">
-      <div className="facts">
-        <div><b>$39</b><span>extra for Creator Pro</span></div>
-        <div><b>10%</b><span>fee on the Standard membership</span></div>
-        <div><b>$660</b><span>in sales at $30 each, and Pro has paid for itself</span></div>
-      </div>
-      <p>Stripe’s card processing fee applies on both: on Standard we cover it out of our 10%, on Pro it comes out of each payment. Figures use Stripe’s typical US card rate of 2.9% plus 30 cents, and your Stripe account shows your actual rate. The app is free to join. Optional app Premium, for messaging and Spiritual Family circles, is $49 a year or $5.99 a month, billed through Apple or Google.</p>
+      <p>Stripe’s card fee is covered by us on the Creator membership, and comes out of each sale on Creator Pro. The app is free to join, with optional Premium for messaging at $49 a year or $5.99 a month.</p>
     </div>
   </div>
 </section>
