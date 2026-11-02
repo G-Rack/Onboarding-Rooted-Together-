@@ -1,4 +1,3 @@
-import { CHECKOUT_URL } from '@/lib/config'
 
 export default function Nav() {
   return (
@@ -12,7 +11,7 @@ export default function Nav() {
       <a className="l" href="#app">The app</a>
       <a className="l" href="#earn">Earn</a>
       <a className="l" href="#pricing">Pricing</a>
-      <a className="btn btn-p" href={CHECKOUT_URL}>Start earning</a>
+      <a className="btn btn-p" href="#pricing">Start earning</a>
     </nav>
   </div>
 </header>

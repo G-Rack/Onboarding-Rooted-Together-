@@ -1,4 +1,3 @@
-import { CHECKOUT_URL } from '@/lib/config'
 
 export default function AppSection() {
   return (
@@ -174,7 +173,7 @@ export default function AppSection() {
     </div>
 
     <div style={{ marginTop: '72px', textAlign: 'center' }}>
-      <a className="btn btn-p" href={CHECKOUT_URL}>Join for $49 and get it all</a>
+      <a className="btn btn-p" href="#pricing">See plans and join</a>
     </div>
   </div>
 </section>

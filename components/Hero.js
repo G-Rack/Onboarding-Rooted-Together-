@@ -1,4 +1,3 @@
-import { CHECKOUT_URL } from '@/lib/config'
 import RuthAvatar from '@/components/RuthAvatar'
 
 export default function Hero() {
@@ -10,7 +9,7 @@ export default function Hero() {
       <h1>Open your storefront. <em>Earn from what you already teach.</em></h1>
       <p className="lead">Rooted Together is a marketplace and community app for faith leaders, churches and ministries. Set up your own storefront, publish courses, ebooks and daily routines, take paid 1:1 calls and prayer requests, and get paid straight to your bank.</p>
       <div className="cta-row">
-        <a className="btn btn-p" href={CHECKOUT_URL}>Create your storefront</a>
+        <a className="btn btn-p" href="#pricing">Create your storefront</a>
         <a className="btn btn-o" href="#app">See inside the app</a>
       </div>
       <div className="fine"><b>One-time $49 membership, or $88 with Creator Pro.</b><span>Includes your storefront. The Rooted Together app is free to join, with optional Premium for messaging.</span></div>

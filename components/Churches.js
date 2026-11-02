@@ -1,4 +1,3 @@
-import { CHECKOUT_URL } from '@/lib/config'
 
 const ChurchIcon = ({ size = 26 }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -38,7 +37,7 @@ export default function Churches() {
           </div>
 
           <div>
-            <a className="btn btn-g" href={CHECKOUT_URL}>Open your church&rsquo;s storefront</a>
+            <a className="btn btn-g" href="#pricing">Open your church&rsquo;s storefront</a>
           </div>
         </div>
 

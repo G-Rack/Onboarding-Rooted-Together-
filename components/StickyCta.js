@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { CHECKOUT_URL } from '@/lib/config'
 
 // Phone-only call to action. Appears after the hero and hides again at the final join section.
 export default function StickyCta() {
@@ -24,7 +23,7 @@ export default function StickyCta() {
   }, [])
 
   return (
-    <a className={'sticky' + (show ? ' show' : '')} href={CHECKOUT_URL} aria-hidden={!show} tabIndex={show ? 0 : -1}>
+    <a className={'sticky' + (show ? ' show' : '')} href="#pricing" aria-hidden={!show} tabIndex={show ? 0 : -1}>
       Create your storefront
     </a>
   )

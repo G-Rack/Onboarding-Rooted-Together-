@@ -56,7 +56,7 @@ export default function Pricing() {
     </div>
 
     <div className="plans-note">
-      <p>Stripe’s card fee is covered by us on the Creator membership, and comes out of each sale on Creator Pro. The app is free to join, with optional Premium for messaging at $49 a year or $5.99 a month.</p>
+      <p>Stripe’s card fee is covered by us on the Creator membership, and comes out of each sale on Creator Pro.</p>
     </div>
   </div>
 </section>
