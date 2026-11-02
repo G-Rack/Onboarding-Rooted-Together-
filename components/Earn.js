@@ -2,14 +2,27 @@
 
 import { useState } from 'react'
 
-const fmt = (n) => '$' + n.toLocaleString('en-US')
+const fmt = (n) => '$' + Math.round(n).toLocaleString('en-US')
 
+// Illustration only. Standard: Rooted keeps 10% and pays Stripe's card fee out of it.
+// Pro: Rooted keeps nothing and the card fee (typically 2.9% + 30 cents) comes out of each sale.
 export default function Earn() {
+  const [plan, setPlan] = useState('standard')
   const [price, setPrice] = useState(16)
   const [sales, setSales] = useState(88)
   const gross = price * sales
-  const keep = Math.round(gross * 0.9)
-  const fee = gross - keep
+  const stdKeep = gross * 0.9
+  const proFees = sales * (price * 0.029 + 0.3)
+  const proKeep = gross - proFees
+  const isPro = plan === 'pro'
+  const keep = isPro ? proKeep : stdKeep
+  const diff = proKeep - stdKeep
+  const note = isPro
+    ? `of ${fmt(gross)} in sales, after about ${fmt(proFees)} in Stripe card fees. Rooted Together keeps $0.`
+    : `of ${fmt(gross)} in sales, after Rooted’s 10% (${fmt(gross - stdKeep)})`
+  const compare = diff >= 1
+    ? (isPro ? `That is about ${fmt(diff)} a month more than the Standard membership.` : `Creator Pro would keep you about ${fmt(diff)} more each month.`)
+    : ''
   return (
     <>
 <section id="earn" className="sec earn">
@@ -17,7 +30,7 @@ export default function Earn() {
     <div className="sec-head">
       <div className="eyebrow gold">Earn from your calling</div>
       <h2 className="h2" style={{ color: 'var(--cream)' }}>Four ways to fund the work you already carry.</h2>
-      <p className="lead" style={{ color: '#D9C7B3', maxWidth: '640px' }}>You keep 90% of every sale. Rooted Together keeps 10% and pays Stripe’s card fees out of it, so we only do well when you do.</p>
+      <p className="lead" style={{ color: '#D9C7B3', maxWidth: '640px' }}>On the Standard membership you keep 90% of every sale, and Rooted Together pays Stripe’s card fees out of its 10%. With Creator Pro, Rooted Together keeps nothing and you keep everything except Stripe’s card fee.</p>
     </div>
     <div className="earn-grid">
       <div className="earn-list">
@@ -29,9 +42,13 @@ export default function Earn() {
       </div>
       <div className="calc">
         <div><h3>See what it could look like</h3><div className="sub">Move the sliders. An illustration, not a promise of income.</div></div>
+        <div className="seg" role="group" aria-label="Plan">
+          <button type="button" className={isPro ? '' : 'on'} aria-pressed={!isPro} onClick={() => setPlan('standard')}>Standard, $49</button>
+          <button type="button" className={isPro ? 'on' : ''} aria-pressed={isPro} onClick={() => setPlan('pro')}>Creator Pro, $88</button>
+        </div>
         <div className="sl"><label htmlFor="pr">Average price <span>{fmt(price)}</span></label><input id="pr" type="range" min={5} max={100} step={1} value={price} onChange={(ev) => setPrice(Number(ev.target.value))} /></div>
         <div className="sl"><label htmlFor="sa">Sales per month <span>{sales}</span></label><input id="sa" type="range" min={1} max={200} step={1} value={sales} onChange={(ev) => setSales(Number(ev.target.value))} /></div>
-        <div className="keep"><div className="a">You keep each month</div><div className="b">{fmt(keep)}</div><div className="c">of {fmt(gross)} in sales, after Rooted’s 10% ({fmt(fee)})</div></div>
+        <div className="keep"><div className="a">You keep each month</div><div className="b">{fmt(keep)}</div><div className="c">{note}</div>{compare && <div className="d">{compare}</div>}</div>
       </div>
     </div>
   </div>

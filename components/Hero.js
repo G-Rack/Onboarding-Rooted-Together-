@@ -13,7 +13,7 @@ export default function Hero() {
         <a className="btn btn-p" href={CHECKOUT_URL}>Create your storefront</a>
         <a className="btn btn-o" href="#app">See inside the app</a>
       </div>
-      <div className="fine"><b>One-time $49 membership.</b><span>Includes your storefront. The Rooted Together app is free to join, with optional Premium for messaging.</span></div>
+      <div className="fine"><b>One-time $49 membership, or $88 with Creator Pro.</b><span>Includes your storefront. The Rooted Together app is free to join, with optional Premium for messaging.</span></div>
     </div>
 
     <div className="hero-art">

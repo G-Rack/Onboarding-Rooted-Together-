@@ -8,6 +8,7 @@ import Churches from '@/components/Churches'
 import AppSection from '@/components/AppSection'
 import Earn from '@/components/Earn'
 import HowItWorks from '@/components/HowItWorks'
+import ProSection from '@/components/ProSection'
 import Pricing from '@/components/Pricing'
 import Join from '@/components/Join'
 import Footer from '@/components/Footer'
@@ -27,6 +28,7 @@ export default function Home() {
       <AppSection />
       <Earn />
       <HowItWorks />
+      <ProSection />
       <Pricing />
       <Join />
       <Footer />

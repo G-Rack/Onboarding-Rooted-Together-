@@ -1,0 +1,42 @@
+/* Creator Pro additions. Everything here reuses the live site's tokens (--brown, --gold, --sand ...). */
+
+/* gold Rooted Pro badge */
+.rpro{display:inline-flex;align-items:center;gap:6px;padding:4px 12px 4px 9px;border-radius:999px;background:var(--gold);color:var(--deep);font-size:12px;font-weight:700;letter-spacing:.02em;white-space:nowrap}
+.rpro .ico{font-size:15px;stroke-width:2.2}
+
+/* two plan cards, side by side */
+.plans{margin-top:44px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:24px;align-items:stretch}
+.plans .price-card{height:100%}
+.price-card.light{background:var(--sand);color:var(--deep)}
+.price-card.light .big b{color:var(--brown)}
+.price-card.light .big span{color:var(--muted)}
+.price-card.light hr{background:var(--line)}
+.price-card.light li svg{stroke:var(--brown)}
+.price-card.light li.hl{background:var(--cream)}
+.price-card.light .small{color:var(--muted)}
+.price-card .grow{flex:1}
+.price-card .btn-row{display:flex;flex-direction:column;gap:12px;margin-top:auto}
+.price-card .small a{color:var(--cream);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.plans-note{margin-top:28px;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center}
+.plans-note .facts{justify-content:center}
+.plans-note p{font-size:14px;color:var(--muted);max-width:560px}
+
+/* light-on-dark outline button (Join band) */
+.btn-ol{border-color:var(--tan);color:var(--cream)}
+.btn-ol:hover{background:rgba(251,246,239,.1)}
+.join .btn-pair{display:flex;flex-wrap:wrap;gap:14px;justify-content:center}
+
+/* Earn calculator plan toggle */
+.seg{display:flex;gap:6px;padding:5px;border-radius:999px;background:var(--sand)}
+.seg button{flex:1;min-height:44px;border:0;border-radius:999px;background:transparent;color:var(--brown);font:600 15px var(--sans);cursor:pointer}
+.seg button.on{background:var(--brown);color:var(--cream)}
+.keep .d{margin-top:10px;font-size:14px;font-weight:600;color:#F3D9A4}
+
+/* storefront card: Pro treatment */
+.cs-name-row{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.cs-pin{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--brown)}
+.cs-pin .ico{font-size:14px}
+
+/* progress bar used in the Academy mock */
+.bar{height:6px;border-radius:999px;background:var(--line);overflow:hidden;margin-top:6px}
+.bar i{display:block;height:100%;background:var(--brown);border-radius:999px}
