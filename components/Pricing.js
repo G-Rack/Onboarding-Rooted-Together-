@@ -20,7 +20,7 @@ export default function Pricing() {
         <ul className="grow">
           <li className="hl"><svg className="ico"><use href="#i-check"/></svg><span><b>Your profile in the Rooted Together app,</b> with Explore, Directory and communities free to use</span></li>
           <li><svg className="ico"><use href="#i-check"/></svg>Your own storefront on web and app</li>
-          <li><svg className="ico"><use href="#i-check"/></svg>Courses, ebooks, routines, 1:1 calls and prayer requests</li>
+          <li><svg className="ico"><use href="#i-check"/></svg>Courses, ebooks, routines and 1:1 calls</li>
           <li><svg className="ico"><use href="#i-check"/></svg>Build a following and create tailored communities</li>
           <li><svg className="ico"><use href="#i-check"/></svg>Secure payouts through Stripe, 90% of every sale yours, and we cover Stripe’s card fees</li>
           <li><svg className="ico"><use href="#i-check"/></svg>Paid items start at $5, and free items are allowed</li>
@@ -39,6 +39,7 @@ export default function Pricing() {
         <ul className="grow">
           <li className="hl"><svg className="ico"><use href="#i-check"/></svg><span><b>Everything in the Creator membership, plus:</b></span></li>
           <li><svg className="ico"><use href="#i-check"/></svg><span><b>0% Rooted Together fee</b> on every sale. Stripe’s card fee comes out of the payment</span></li>
+          <li><svg className="ico"><use href="#i-check"/></svg><span><b>Daily prayers, guided meditations and special requests,</b> offered from your storefront and paid straight to you</span></li>
           <li><svg className="ico"><use href="#i-check"/></svg><span><b>Rooted Pro badge</b> and priority placement in your category</span></li>
           <li><svg className="ico"><use href="#i-check"/></svg><span><b>Creator Academy:</b> selling more, Instagram and TikTok, and storefront content</span></li>
           <li><svg className="ico"><use href="#i-check"/></svg>Templates, swipe files and a 30-day launch plan</li>

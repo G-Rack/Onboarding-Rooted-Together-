@@ -28,7 +28,7 @@ export default function Churches() {
             </div>
             <div className="use">
               <div className="ui"><svg className="ico"><use href="#i-heart" /></svg></div>
-              <div><h3>Care that reaches beyond your walls</h3><p>Offer paid pastoral calls and prayer requests to people outside your church, and keep your own congregation free through a Spiritual Family.</p></div>
+              <div><h3>Care that reaches beyond your walls</h3><p>Offer paid pastoral calls to people outside your church, add prayer requests with Creator Pro, and keep your own congregation free through a Spiritual Family.</p></div>
             </div>
           </div>
 
