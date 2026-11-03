@@ -9,7 +9,7 @@ export default function Pricing() {
     <div className="sec-head">
       <div className="eyebrow">Pricing</div>
       <h2 className="h2">One payment. Your whole ministry home.</h2>
-      <p className="lead">Join once and open your storefront, on the web and in the app. There is no subscription for your storefront, and nothing to renew. Choose the Creator membership, or add Creator Pro for the training, the badge and a lower Rooted Together fee.</p>
+      <p className="lead">Join once and open your storefront, on the web and in the app. The Creator membership is a single payment with nothing to renew. Creator Pro is an optional yearly add-on for the training, the badge and a lower Rooted Together fee.</p>
     </div>
 
     <div className="plans">
@@ -34,7 +34,7 @@ export default function Pricing() {
 
       <div className="price-card">
         <span className="tag" style={{ alignSelf: 'flex-start', background: 'var(--gold)', color: 'var(--deep)', fontSize: '12px' }}>Creator Pro</span>
-        <div className="big"><b>$88</b><span>one-time payment</span></div>
+        <div className="big"><b>$88</b><span>first year, then $39 a year</span></div>
         <hr />
         <ul className="grow">
           <li className="hl"><svg className="ico"><use href="#i-check"/></svg><span><b>Everything in the Creator membership, plus:</b></span></li>
@@ -46,11 +46,11 @@ export default function Pricing() {
           <li><svg className="ico"><use href="#i-check"/></svg>Private Creator Pro community: ask, share and swap files</li>
         </ul>
         <div className="btn-row">
-          <ProCta className="btn btn-g" style={{ minHeight: '58px', fontSize: '17px' }} href={PRO_CHECKOUT_URL}>Get Creator Pro, $88</ProCta>
+          <ProCta className="btn btn-g" style={{ minHeight: '58px', fontSize: '17px' }} href={PRO_CHECKOUT_URL}>Get Creator Pro, $88 first year</ProCta>
           <div className="small">
             Already a member?{' '}
-            {UPGRADE_CHECKOUT_URL ? <a href={UPGRADE_CHECKOUT_URL} target="_blank" rel="noopener noreferrer">Upgrade for $39</a> : <span>Upgrade for $39 (opens soon)</span>}
-            . Pay the difference once.
+            {UPGRADE_CHECKOUT_URL ? <a href={UPGRADE_CHECKOUT_URL} target="_blank" rel="noopener noreferrer">Upgrade for $39 a year</a> : <span>Upgrade for $39 a year (opens soon)</span>}
+            . Renews yearly; cancel any time.
           </div>
         </div>
       </div>

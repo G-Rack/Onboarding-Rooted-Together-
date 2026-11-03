@@ -42,7 +42,7 @@ export default function Earn() {
         <div><h3>See what it could look like</h3><div className="sub">Move the sliders. An illustration, not a promise of income.</div></div>
         <div className="seg" role="group" aria-label="Plan">
           <button type="button" className={isPro ? '' : 'on'} aria-pressed={!isPro} onClick={() => setPlan('standard')}>Standard, $49</button>
-          <button type="button" className={isPro ? 'on' : ''} aria-pressed={isPro} onClick={() => setPlan('pro')}>Creator Pro, $88</button>
+          <button type="button" className={isPro ? 'on' : ''} aria-pressed={isPro} onClick={() => setPlan('pro')}>Creator Pro, $39/yr</button>
         </div>
         <div className="sl"><label htmlFor="pr">Average price <span>{fmt(price)}</span></label><input id="pr" type="range" min={5} max={100} step={1} value={price} onChange={(ev) => setPrice(Number(ev.target.value))} /></div>
         <div className="sl"><label htmlFor="sa">Sales per month <span>{sales}</span></label><input id="sa" type="range" min={1} max={200} step={1} value={sales} onChange={(ev) => setSales(Number(ev.target.value))} /></div>

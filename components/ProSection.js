@@ -7,7 +7,7 @@ export default function ProSection() {
 <div className="sec-head">
 <div className="eyebrow">Creator Pro</div>
 <h2 className="h2">Everything in the membership, plus the training to sell more.</h2>
-<p className="lead">Creator Pro is a one-time $88 upgrade for leaders who want to grow their storefront on purpose: three short trainings, a Rooted Pro badge, ready-made templates, and a Rooted Together fee of 5% instead of 10% on your sales.</p>
+<p className="lead">Creator Pro is a yearly upgrade ($39 a year, or $88 for your first year with the membership) for leaders who want to grow their storefront on purpose: three short trainings, a Rooted Pro badge, ready-made templates, and a Rooted Together fee of 5% instead of 10% on your sales.</p>
 </div>
 <div className="cards">
 <div className="card"><div className="ib"><svg className="ico"><use href="#i-book"/></svg></div><h3>Creator Academy</h3><p>Three short trainings on selling more, using Instagram and TikTok, and creating content for your storefront. Watch on your phone or computer.</p></div>
