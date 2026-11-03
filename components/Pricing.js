@@ -9,7 +9,7 @@ export default function Pricing() {
     <div className="sec-head">
       <div className="eyebrow">Pricing</div>
       <h2 className="h2">One payment. Your whole ministry home.</h2>
-      <p className="lead">Join once and open your storefront, on the web and in the app. There is no subscription for your storefront, and nothing to renew. Choose the Creator membership, or add Creator Pro for the training, the badge and zero Rooted Together fees.</p>
+      <p className="lead">Join once and open your storefront, on the web and in the app. There is no subscription for your storefront, and nothing to renew. Choose the Creator membership, or add Creator Pro for the training, the badge and a lower Rooted Together fee.</p>
     </div>
 
     <div className="plans">
@@ -22,7 +22,7 @@ export default function Pricing() {
           <li><svg className="ico"><use href="#i-check"/></svg>Your own storefront on web and app</li>
           <li><svg className="ico"><use href="#i-check"/></svg>Courses, ebooks, routines and 1:1 calls</li>
           <li><svg className="ico"><use href="#i-check"/></svg>Build a following and create tailored communities</li>
-          <li><svg className="ico"><use href="#i-check"/></svg>Secure payouts through Stripe, 90% of every sale yours, and we cover Stripe’s card fees</li>
+          <li><svg className="ico"><use href="#i-check"/></svg>Secure payouts through Stripe. Rooted Together keeps 10% of each sale, and Stripe’s card fee comes out of each payment</li>
           <li><svg className="ico"><use href="#i-check"/></svg>Paid items start at $5, and free items are allowed</li>
           <li><svg className="ico"><use href="#i-check"/></svg>No monthly storefront fee, ever</li>
         </ul>
@@ -38,7 +38,7 @@ export default function Pricing() {
         <hr />
         <ul className="grow">
           <li className="hl"><svg className="ico"><use href="#i-check"/></svg><span><b>Everything in the Creator membership, plus:</b></span></li>
-          <li><svg className="ico"><use href="#i-check"/></svg><span><b>0% Rooted Together fee</b> on every sale. Stripe’s card fee comes out of the payment</span></li>
+          <li><svg className="ico"><use href="#i-check"/></svg><span><b>5% Rooted Together fee</b> on every sale, half the standard rate. Stripe’s card fee comes out of the payment</span></li>
           <li><svg className="ico"><use href="#i-check"/></svg><span><b>Daily prayers, guided meditations and special requests,</b> offered from your storefront and paid straight to you</span></li>
           <li><svg className="ico"><use href="#i-check"/></svg><span><b>Rooted Pro badge</b> and priority placement in your category</span></li>
           <li><svg className="ico"><use href="#i-check"/></svg><span><b>Creator Academy:</b> selling more, Instagram and TikTok, and storefront content</span></li>
@@ -57,7 +57,7 @@ export default function Pricing() {
     </div>
 
     <div className="plans-note">
-      <p>Stripe’s card fee is covered by us on the Creator membership, and comes out of each sale on Creator Pro.</p>
+      <p>Stripe’s card fee (about 2.9% plus 30 cents) comes out of each sale on both plans, on top of Rooted Together’s 10% on the Creator membership or 5% on Creator Pro.</p>
     </div>
   </div>
 </section>

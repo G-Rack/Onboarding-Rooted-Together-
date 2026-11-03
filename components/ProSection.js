@@ -7,12 +7,12 @@ export default function ProSection() {
 <div className="sec-head">
 <div className="eyebrow">Creator Pro</div>
 <h2 className="h2">Everything in the membership, plus the training to sell more.</h2>
-<p className="lead">Creator Pro is a one-time $88 upgrade for leaders who want to grow their storefront on purpose: three short trainings, a Rooted Pro badge, ready-made templates, and zero Rooted Together fees on your sales.</p>
+<p className="lead">Creator Pro is a one-time $88 upgrade for leaders who want to grow their storefront on purpose: three short trainings, a Rooted Pro badge, ready-made templates, and a Rooted Together fee of 5% instead of 10% on your sales.</p>
 </div>
 <div className="cards">
 <div className="card"><div className="ib"><svg className="ico"><use href="#i-book"/></svg></div><h3>Creator Academy</h3><p>Three short trainings on selling more, using Instagram and TikTok, and creating content for your storefront. Watch on your phone or computer.</p></div>
 <div className="card"><div className="ib"><svg className="ico"><use href="#i-badge"/></svg></div><h3>Rooted Pro badge</h3><p>A gold badge on your profile, storefront and marketplace listing, so your page stands out from the rest.</p></div>
-<div className="card"><div className="ib"><svg className="ico"><use href="#i-percent"/></svg></div><h3>0% Rooted Together fee</h3><p>We keep nothing from your sales. Stripe’s standard card fee still comes out of each payment.</p></div>
+<div className="card"><div className="ib"><svg className="ico"><use href="#i-percent"/></svg></div><h3>5% Rooted Together fee</h3><p>Half the standard 10%. Stripe’s standard card fee still comes out of each payment.</p></div>
 <div className="card"><div className="ib"><svg className="ico"><use href="#i-download"/></svg></div><h3>Templates and swipe files</h3><p>Post and story templates, caption starters, offer descriptions and follow-up messages you can download and use today.</p></div>
 <div className="card"><div className="ib"><svg className="ico"><use href="#i-calendar"/></svg></div><h3>30-day launch plan</h3><p>A day-by-day checklist from an empty storefront to your first sale. One small task a day.</p></div>
 <div className="card"><div className="ib"><svg className="ico"><use href="#i-chat"/></svg></div><h3>Private Creator Pro community</h3><p>Ask questions, share wins and swap templates with other Pro creators in a private space inside your dashboard. Post, reply and upload files any time.</p></div>
@@ -59,7 +59,7 @@ export default function ProSection() {
 <ul className="feat">
 <li><svg className="ico"><use href="#i-check"/></svg><span><b>The Rooted Pro badge.</b> On your profile, your storefront and your marketplace listing.</span></li>
 <li><svg className="ico"><use href="#i-check"/></svg><span><b>Priority placement.</b> Shown ahead of other creators in your category.</span></li>
-<li><svg className="ico"><use href="#i-check"/></svg><span><b>Keep more of every sale.</b> Rooted Together takes 0%. Stripe’s card fee comes out of each payment.</span></li>
+<li><svg className="ico"><use href="#i-check"/></svg><span><b>Keep more of every sale.</b> Rooted Together takes 5% instead of 10%. Stripe’s card fee comes out of each payment.</span></li>
 </ul>
 </div>
 <div className="block-art">
