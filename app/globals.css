@@ -462,3 +462,14 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
   footer .in{font-size:13px;gap:8px}
   footer .lg{font-size:18px}
 }
+
+/* ===== What you can sell ===== */
+.sell-grid{margin-top:44px;display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.sell-card{padding:26px 24px;border-radius:22px;background:#fff;border:1px solid var(--line);display:flex;flex-direction:column;gap:10px}
+.sell-card .ib{width:46px;height:46px;border-radius:14px;background:var(--brown);color:var(--cream);display:grid;place-items:center;margin-bottom:4px}
+.sell-card h3{font-family:var(--serif);font-weight:600;font-size:21px}
+.sell-card p{font-size:15px;line-height:1.55;color:var(--muted);flex:1}
+.sell-card .eg{font-size:12.5px;font-weight:600;color:var(--gold);letter-spacing:.02em}
+@media (max-width:1000px){.sell-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:560px){.sell-grid{grid-template-columns:1fr;gap:14px}.sell-card{padding:22px 20px}}
+.sell-card .ico{width:24px;height:24px}

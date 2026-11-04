@@ -12,7 +12,7 @@ import { SITE_NAME, SITE_URL } from '@/lib/config'
 
 const title = 'Rooted Together for Leaders, Churches and Ministries: open your storefront and earn from what you teach'
 const description =
-  'A marketplace for spiritual mothers, pastors, churches and ministries. Open your storefront, sell courses, ebooks, routines and 1:1 calls, add prayer and meditation requests with Creator Pro, and get paid to your bank through Stripe.'
+  'A marketplace for spiritual mothers, pastors, churches and ministries. Open your storefront, sell courses, ebooks, audiobooks, printables, templates, routines and 1:1 calls, add prayer and meditation requests with Creator Pro, and get paid to your bank through Stripe.'
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),

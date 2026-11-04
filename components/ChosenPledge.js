@@ -12,7 +12,7 @@ const steps = [
   {
     n: 2,
     title: 'Create at least 2 offerings',
-    body: 'A course, ebook, daily routine or 1:1 calls. Sell each one, or give it free to the community. You choose, item by item.',
+    body: 'A course, ebook, audiobook, printable, template, daily routine or 1:1 call. Sell each one, or give it free to the community. You choose, item by item.',
   },
   {
     n: 3,

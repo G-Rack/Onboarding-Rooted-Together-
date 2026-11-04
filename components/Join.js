@@ -8,7 +8,7 @@ export default function Join() {
   <div className="in">
     <div className="eyebrow gold">Join Rooted Together</div>
     <h2>Your calling, your church or your ministry deserves a home. Open yours today.</h2>
-    <p>Pay once, create your account, and your storefront is ready for your first course, post, routine or call. The app is free to join.</p>
+    <p>Pay once, create your account, and your storefront is ready for your first course, audiobook, printable, post or call. The app is free to join.</p>
     <div className="btn-pair">
       <a className="btn btn-g" href={CHECKOUT_URL} target="_blank" rel="noopener noreferrer">Join for $49</a>
       <ProCta className="btn btn-ol" href={PRO_CHECKOUT_URL}>Get Creator Pro, $88</ProCta>

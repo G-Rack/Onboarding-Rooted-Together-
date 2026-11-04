@@ -20,7 +20,7 @@ export default function Churches() {
           <div className="uses">
             <div className="use">
               <div className="ui"><svg className="ico"><use href="#i-book" /></svg></div>
-              <div><h3>Sermon series, classes and courses</h3><p>Turn teaching series, discipleship classes and new members courses into courses and ebooks your whole congregation can reach, free or paid.</p></div>
+              <div><h3>Sermon series, classes and courses</h3><p>Turn teaching series, discipleship classes and new members courses into courses, ebooks and audiobooks your whole congregation can reach, free or paid.</p></div>
             </div>
             <div className="use">
               <div className="ui"><svg className="ico"><use href="#i-people" /></svg></div>
@@ -53,6 +53,7 @@ export default function Churches() {
               <div className="cs-off"><div className="oi"><svg className="ico"><use href="#i-doc" /></svg></div><div><b>New Members Class</b><small>For your congregation</small></div><span className="free">Free</span></div>
               <div className="cs-off"><div className="oi"><svg className="ico"><use href="#i-video" /></svg></div><div><b>Walking in Peace</b><small>6-week sermon series</small></div><span className="pr">$24</span></div>
               <div className="cs-off"><div className="oi"><svg className="ico"><use href="#i-book" /></svg></div><div><b>Marriage Matters</b><small>Ebook and study guide</small></div><span className="pr">$12</span></div>
+              <div className="cs-off"><div className="oi"><svg className="ico"><use href="#i-headphones" /></svg></div><div><b>Sunday Messages</b><small>Audiobook, 8 chapters</small></div><span className="pr">$10</span></div>
               <div className="cs-off"><div className="oi"><svg className="ico"><use href="#i-heart" /></svg></div><div><b>Pastoral care call</b><small>30 minutes</small></div><span className="pr">$40</span></div>
             </div>
           </div>

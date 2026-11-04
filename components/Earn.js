@@ -32,11 +32,11 @@ export default function Earn() {
     </div>
     <div className="earn-grid">
       <div className="earn-list">
-        <div className="er"><h3>Courses and ebooks</h3><p>Sell your teaching once, and it keeps serving people while you sleep.</p></div>
-        <div className="er"><h3>Daily routines</h3><p>Guided mornings and evenings people can download and return to.</p></div>
+        <div className="er"><h3>Courses, ebooks and audiobooks</h3><p>Sell your teaching once, and it keeps serving people while you sleep.</p></div>
+        <div className="er"><h3>Printables, templates and daily routines</h3><p>Journals, planners and guided mornings and evenings people can download, print and return to.</p></div>
         <div className="er"><h3>1:1 calls</h3><p>Set your own price and your own calendar. People book and pay in one step.</p></div>
         {isPro && <div className="er"><h3>Daily prayers, meditations and special requests <span style={{ display: 'inline-block', verticalAlign: 'middle', marginLeft: '8px', padding: '3px 10px', borderRadius: '999px', background: 'var(--gold)', color: 'var(--deep)', fontSize: '11px', fontWeight: 700, letterSpacing: '0.04em' }}>Creator Pro</span></h3><p>Offer a week of daily prayer, a guided meditation or a dedicated request for a specific need, on your terms. Included with Creator Pro.</p></div>}
-        <p style={{ marginTop: '24px', fontSize: '15px', lineHeight: '1.6', color: '#D9C7B3' }}>Payouts go to your bank through Stripe. Request one any time your balance reaches $10.</p>
+        <p style={{ marginTop: '24px', fontSize: '15px', lineHeight: '1.6', color: '#D9C7B3' }}>Payouts go to your bank through Stripe. Request one any time your balance reaches $25.</p>
       </div>
       <div className="calc">
         <div><h3>See what it could look like</h3><div className="sub">Move the sliders. An illustration, not a promise of income.</div></div>
