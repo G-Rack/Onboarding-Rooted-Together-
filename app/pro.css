@@ -40,3 +40,12 @@
 /* progress bar used in the Academy mock */
 .bar{height:6px;border-radius:999px;background:var(--line);overflow:hidden;margin-top:6px}
 .bar i{display:block;height:100%;background:var(--brown);border-radius:999px}
+
+/* Creator Pro card: grouped benefits and a pays-for-itself note */
+.price-card li.grp{display:block;margin-top:10px;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.price-card li.grp:first-of-type{margin-top:4px}
+.price-card .pays{padding:14px 16px;border-radius:16px;background:rgba(200,146,63,.16);border:1px solid rgba(200,146,63,.5);font-size:14.5px;line-height:1.5;color:var(--cream)}
+.price-card .pays b{color:#F3D9A4}
+.price-card.light .upsell{padding:14px 16px;border-radius:16px;border:1.5px dashed var(--gold);background:rgba(251,246,239,.6);font-size:14.5px;line-height:1.55;color:var(--muted)}
+.price-card.light .upsell b{color:var(--deep)}
+.price-card.light .grow{flex:0 0 auto}
