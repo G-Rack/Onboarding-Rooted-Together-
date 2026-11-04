@@ -14,7 +14,7 @@ export default function Value() {
       <div className="card"><div className="ib"><svg className="ico"><use href="#i-video"/></svg></div><h3>Offer 1:1 calls</h3><p>Mentor, counsel and pray with people one to one. Connect your own Calendly and let them book a time and pay.</p></div>
       <div className="card"><div className="ib"><svg className="ico"><use href="#i-heart"/></svg></div><h3>Offer prayer and meditation</h3><p>With Creator Pro, people can request daily prayers, guided meditations or a special request, with a clear way to thank you for your time.</p></div>
       <div className="card"><div className="ib"><svg className="ico"><use href="#i-card"/></svg></div><h3>Get paid straight to your bank</h3><p>Every sale lands in your balance. Connect Stripe once and request a payout whenever you reach $25.</p></div>
-      <div className="card"><div className="ib"><svg className="ico"><use href="#i-net"/></svg></div><h3>Share it anywhere</h3><p>Your link works in your bio, your newsletter and your sermon slides. People can buy without installing anything.</p></div>
+      <div className="card"><div className="ib"><svg className="ico"><use href="#i-net"/></svg></div><h3>Share it anywhere</h3><p>Your link works in your bio, your newsletter and your sermon slides. People can buy without installing anything, and the Creative hub makes the Instagram and TikTok posts for you.</p></div>
     </div>
   </div>
 </section>

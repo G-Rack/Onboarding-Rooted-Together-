@@ -22,6 +22,7 @@ export default function Pricing() {
           <li><svg className="ico"><use href="#i-check"/></svg>Your own storefront on web and app</li>
           <li><svg className="ico"><use href="#i-check"/></svg>Courses, ebooks, audiobooks, printables, templates, routines, bundles and 1:1 calls</li>
           <li><svg className="ico"><use href="#i-check"/></svg>Build a following and create tailored communities</li>
+          <li><svg className="ico"><use href="#i-check"/></svg><span><b>Creative hub:</b> ready-to-post Instagram and TikTok pictures and captions, made from your own storefront</span></li>
           <li><svg className="ico"><use href="#i-check"/></svg>Secure payouts through Stripe. Rooted Together keeps 10% of each sale, and Stripe’s card fee comes out of each payment</li>
           <li><svg className="ico"><use href="#i-check"/></svg>Paid items start at $5, and free items are allowed</li>
           <li><svg className="ico"><use href="#i-check"/></svg>No monthly storefront fee, ever</li>

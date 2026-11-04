@@ -8,6 +8,7 @@ import '@fontsource/inter/600.css'
 import '@fontsource/inter/700.css'
 import './globals.css'
 import './pro.css'
+import './hub.css'
 import { SITE_NAME, SITE_URL } from '@/lib/config'
 
 const title = 'Rooted Together for Leaders, Churches and Ministries: open your storefront and earn from what you teach'
