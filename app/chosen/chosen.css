@@ -135,3 +135,11 @@ html:has(.ch-gate),body:has(.ch-gate){background:var(--deep)}
   .ch-cta-note{font-size:13.5px;line-height:1.5}
   .ch-foot{font-size:13px}
 }
+
+.ch-gift{max-width:560px;display:flex;flex-direction:column;gap:12px;padding:20px 24px;border-radius:20px;background:var(--sand);border-left:4px solid var(--gold)}
+.ch-gift b{font-family:var(--serif);font-size:19px;color:var(--brown)}
+.ch-gift ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:9px}
+.ch-gift li{display:flex;align-items:flex-start;gap:10px;font-size:16px;line-height:1.5;color:var(--deep)}
+.ch-gift li svg{flex:none;margin-top:3px;color:var(--brown)}
+.ch-gift small{font-size:13.5px;line-height:1.5;color:var(--muted)}
+@media (max-width:640px){.ch-gift{padding:18px 18px}.ch-gift li{font-size:15px}}

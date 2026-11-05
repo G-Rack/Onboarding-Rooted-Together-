@@ -39,6 +39,14 @@ export default function ChosenPledge({ token = '' }) {
           <div className="ch-eyebrow ch-eyebrow-dark">Your mission</div>
           <h1 className="ch-hero-h">You were chosen to build a home for <em>those who need spiritual support.</em></h1>
           <p className="ch-hero-lead">Too many people carry heavy seasons alone. We are gathering Spiritual Mothers, pastors, churches and ministries to build a community where no one is left to face them alone. Share what you know, free or paid, with the people who are searching for it.</p>
+          <div className="ch-gift">
+            <b>Already yours as a founding creator</b>
+            <ul>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" {...stroke} strokeWidth="2.6"><path d="M5 12.5l4.5 4.5L19 7.5" /></svg><span>Your <strong>$49 creator membership is waived.</strong></span></li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" {...stroke} strokeWidth="2.6"><path d="M5 12.5l4.5 4.5L19 7.5" /></svg><span><strong>Creator Pro is included at no charge,</strong> with nothing to renew.</span></li>
+            </ul>
+            <small>Founding creators keep the standard 10% platform fee on sales, plus Stripe&rsquo;s card fee.</small>
+          </div>
         </div>
 
         <aside className="ch-glance" aria-label="Your pledge at a glance">
