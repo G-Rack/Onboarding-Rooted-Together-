@@ -45,7 +45,7 @@ export default function ChosenPledge({ token = '' }) {
               <li><svg width="18" height="18" viewBox="0 0 24 24" {...stroke} strokeWidth="2.6"><path d="M5 12.5l4.5 4.5L19 7.5" /></svg><span>Your <strong>$49 creator membership is waived.</strong></span></li>
               <li><svg width="18" height="18" viewBox="0 0 24 24" {...stroke} strokeWidth="2.6"><path d="M5 12.5l4.5 4.5L19 7.5" /></svg><span><strong>Creator Pro is included at no charge,</strong> with nothing to renew.</span></li>
             </ul>
-            <small>Founding creators keep the standard 10% platform fee on sales, plus Stripe&rsquo;s card fee.</small>
+            <small>Founding creators pay the Creator Pro platform fee of 5% on sales, plus Stripe&rsquo;s card fee.</small>
           </div>
         </div>
 
