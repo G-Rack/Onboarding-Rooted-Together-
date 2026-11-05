@@ -9,7 +9,9 @@ import '@fontsource/inter/700.css'
 import './globals.css'
 import './pro.css'
 import './hub.css'
-import { SITE_NAME, SITE_URL } from '@/lib/config'
+import { SITE_NAME, SITE_URL, MAIN_SITE_URL } from '@/lib/config'
+import GoogleTag from '@/components/GoogleTag'
+import ConsentBanner from '@/components/ConsentBanner'
 
 const title = 'Rooted Together for Leaders, Churches and Ministries: open your storefront and earn from what you teach'
 const description =
@@ -32,7 +34,11 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <GoogleTag />
+        {children}
+        <ConsentBanner privacyHref={`${MAIN_SITE_URL}/privacy`} />
+      </body>
     </html>
   )
 }
