@@ -55,5 +55,5 @@ export async function proxy(request) {
   if (request.method !== 'GET' && request.method !== 'HEAD') {
     return new NextResponse('Not available yet.', { status: 403, headers: { ...headers, 'Content-Type': 'text/plain' } });
   }
-  return withRegion(new NextResponse(comingSoonHtml({ blurb: BLURB, social: SOCIAL_LINKS, privacyHref: PRIVACY_HREF }), { status: 200, headers }), request);
+  return withRegion(new NextResponse(comingSoonHtml({ blurb: BLURB, social: SOCIAL_LINKS, privacyHref: PRIVACY_HREF, variant: 'creator' }), { status: 200, headers }), request);
 }

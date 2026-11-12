@@ -11,6 +11,7 @@ import './pro.css'
 import './hub.css'
 import { SITE_NAME, SITE_URL, MAIN_SITE_URL } from '@/lib/config'
 import GoogleTag from '@/components/GoogleTag'
+import Pixels from '@/components/Pixels'
 import ConsentBanner from '@/components/ConsentBanner'
 
 const title = 'Rooted Together for Leaders, Churches and Ministries: open your storefront and earn from what you teach'
@@ -36,6 +37,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <GoogleTag />
+        <Pixels />
         {children}
         <ConsentBanner privacyHref={`${MAIN_SITE_URL}/privacy`} />
       </body>
