@@ -9,7 +9,8 @@ import { CONSENT_COUNTRIES, REGION_COOKIE } from './lib/tracking';
 // coming-soon page itself uses.
 const OPEN = [
   /^\/_next\//,
-  /^\/api\/(gate|waitlist)$/,
+  /^\/api\/(gate|waitlist|founding)$/,
+  /^\/founding\/?$/,
   /^\/(icon|apple-icon)\.png$/,
   /^\/favicon\.ico$/,
   /^\/robots\.txt$/,
